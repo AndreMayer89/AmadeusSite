@@ -17,7 +17,7 @@
 	padding-bottom: 15px;
 }
 
-footer .footersocial li span {
+footer .footersocial li span a {
 	color: #FFFFFF;
 	cursor: pointer;
 }
