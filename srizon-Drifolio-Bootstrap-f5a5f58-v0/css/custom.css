@@ -22,6 +22,21 @@ footer .footersocial li span {
 	cursor: pointer;
 }
 
+footer .footersocial li span:hover {
+	color: #ea9312;
+	cursor: pointer;
+}
+
+footer .footersocial li span {
+	color: #FFFFFF;
+	cursor: pointer;
+}
+
 footer .subscribe-container h4 {
 	color: #FFFFFF;
+}
+
+footer .subscribe-container {
+    padding-left: 8%;
+    padding-right: 8%;
 }
