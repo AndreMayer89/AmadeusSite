@@ -16,3 +16,12 @@
 .team .b1 {
 	padding-bottom: 15px;
 }
+
+footer .footersocial li span {
+	color: #FFFFFF;
+	cursor: pointer;
+}
+
+footer .subscribe-container h4 {
+	color: #FFFFFF;
+}
