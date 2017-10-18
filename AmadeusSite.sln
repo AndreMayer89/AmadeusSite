@@ -1,0 +1,86 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C664C184-FA0A-4D22-8E00-5B57EC0EE2B9}"
+	ProjectSection(SolutionItems) = preProject
+		srizon-Drifolio-Bootstrap-f5a5f58-v0\index.html = srizon-Drifolio-Bootstrap-f5a5f58-v0\index.html
+		srizon-Drifolio-Bootstrap-f5a5f58-v0\preview.png = srizon-Drifolio-Bootstrap-f5a5f58-v0\preview.png
+		srizon-Drifolio-Bootstrap-f5a5f58-v0\readme.md = srizon-Drifolio-Bootstrap-f5a5f58-v0\readme.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "css", "css", "{0D9A150F-D385-46AF-9C74-2ACE2AE6C704}"
+	ProjectSection(SolutionItems) = preProject
+		srizon-Drifolio-Bootstrap-f5a5f58-v0\css\animate.css = srizon-Drifolio-Bootstrap-f5a5f58-v0\css\animate.css
+		srizon-Drifolio-Bootstrap-f5a5f58-v0\css\custom.css = srizon-Drifolio-Bootstrap-f5a5f58-v0\css\custom.css
+		srizon-Drifolio-Bootstrap-f5a5f58-v0\css\preloader.css = srizon-Drifolio-Bootstrap-f5a5f58-v0\css\preloader.css
+		srizon-Drifolio-Bootstrap-f5a5f58-v0\css\responsive.css = srizon-Drifolio-Bootstrap-f5a5f58-v0\css\responsive.css
+		srizon-Drifolio-Bootstrap-f5a5f58-v0\css\simple-line-icons.css = srizon-Drifolio-Bootstrap-f5a5f58-v0\css\simple-line-icons.css
+		srizon-Drifolio-Bootstrap-f5a5f58-v0\css\style.css = srizon-Drifolio-Bootstrap-f5a5f58-v0\css\style.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "img", "img", "{FD9F3757-294A-4617-9118-4F4B7189E0B5}"
+	ProjectSection(SolutionItems) = preProject
+		srizon-Drifolio-Bootstrap-f5a5f58-v0\img\amazon.png = srizon-Drifolio-Bootstrap-f5a5f58-v0\img\amazon.png
+		srizon-Drifolio-Bootstrap-f5a5f58-v0\img\apple-touch-icon-ipad-retina.png = srizon-Drifolio-Bootstrap-f5a5f58-v0\img\apple-touch-icon-ipad-retina.png
+		srizon-Drifolio-Bootstrap-f5a5f58-v0\img\apple-touch-icon-ipad.png = srizon-Drifolio-Bootstrap-f5a5f58-v0\img\apple-touch-icon-ipad.png
+		srizon-Drifolio-Bootstrap-f5a5f58-v0\img\apple-touch-icon-iphone-retina.png = srizon-Drifolio-Bootstrap-f5a5f58-v0\img\apple-touch-icon-iphone-retina.png
+		srizon-Drifolio-Bootstrap-f5a5f58-v0\img\apple-touch-icon-iphone.png = srizon-Drifolio-Bootstrap-f5a5f58-v0\img\apple-touch-icon-iphone.png
+		srizon-Drifolio-Bootstrap-f5a5f58-v0\img\background.jpg = srizon-Drifolio-Bootstrap-f5a5f58-v0\img\background.jpg
+		srizon-Drifolio-Bootstrap-f5a5f58-v0\img\curb.png = srizon-Drifolio-Bootstrap-f5a5f58-v0\img\curb.png
+		srizon-Drifolio-Bootstrap-f5a5f58-v0\img\elance-odesk.png = srizon-Drifolio-Bootstrap-f5a5f58-v0\img\elance-odesk.png
+		srizon-Drifolio-Bootstrap-f5a5f58-v0\img\favicon.png = srizon-Drifolio-Bootstrap-f5a5f58-v0\img\favicon.png
+		srizon-Drifolio-Bootstrap-f5a5f58-v0\img\icon.png = srizon-Drifolio-Bootstrap-f5a5f58-v0\img\icon.png
+		srizon-Drifolio-Bootstrap-f5a5f58-v0\img\mozart-10.jpg = srizon-Drifolio-Bootstrap-f5a5f58-v0\img\mozart-10.jpg
+		srizon-Drifolio-Bootstrap-f5a5f58-v0\img\payoneer.png = srizon-Drifolio-Bootstrap-f5a5f58-v0\img\payoneer.png
+		srizon-Drifolio-Bootstrap-f5a5f58-v0\img\s1.png = srizon-Drifolio-Bootstrap-f5a5f58-v0\img\s1.png
+		srizon-Drifolio-Bootstrap-f5a5f58-v0\img\s2.png = srizon-Drifolio-Bootstrap-f5a5f58-v0\img\s2.png
+		srizon-Drifolio-Bootstrap-f5a5f58-v0\img\s3.png = srizon-Drifolio-Bootstrap-f5a5f58-v0\img\s3.png
+		srizon-Drifolio-Bootstrap-f5a5f58-v0\img\teste.png = srizon-Drifolio-Bootstrap-f5a5f58-v0\img\teste.png
+		srizon-Drifolio-Bootstrap-f5a5f58-v0\img\trianglify-background.svg = srizon-Drifolio-Bootstrap-f5a5f58-v0\img\trianglify-background.svg
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "team", "team", "{3A01CF02-B6C9-4DC5-8E4D-E3CB36542645}"
+	ProjectSection(SolutionItems) = preProject
+		srizon-Drifolio-Bootstrap-f5a5f58-v0\img\team\andre.jpg = srizon-Drifolio-Bootstrap-f5a5f58-v0\img\team\andre.jpg
+		srizon-Drifolio-Bootstrap-f5a5f58-v0\img\team\eduardo.jpg = srizon-Drifolio-Bootstrap-f5a5f58-v0\img\team\eduardo.jpg
+		srizon-Drifolio-Bootstrap-f5a5f58-v0\img\team\fabio.jpg = srizon-Drifolio-Bootstrap-f5a5f58-v0\img\team\fabio.jpg
+		srizon-Drifolio-Bootstrap-f5a5f58-v0\img\team\fernanda.jpg = srizon-Drifolio-Bootstrap-f5a5f58-v0\img\team\fernanda.jpg
+		srizon-Drifolio-Bootstrap-f5a5f58-v0\img\team\joao.jpg = srizon-Drifolio-Bootstrap-f5a5f58-v0\img\team\joao.jpg
+		srizon-Drifolio-Bootstrap-f5a5f58-v0\img\team\mariana.jpg = srizon-Drifolio-Bootstrap-f5a5f58-v0\img\team\mariana.jpg
+		srizon-Drifolio-Bootstrap-f5a5f58-v0\img\team\rafael.jpg = srizon-Drifolio-Bootstrap-f5a5f58-v0\img\team\rafael.jpg
+		srizon-Drifolio-Bootstrap-f5a5f58-v0\img\team\talita.jpg = srizon-Drifolio-Bootstrap-f5a5f58-v0\img\team\talita.jpg
+		srizon-Drifolio-Bootstrap-f5a5f58-v0\img\team\yasmim.jpg = srizon-Drifolio-Bootstrap-f5a5f58-v0\img\team\yasmim.jpg
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "fonts", "fonts", "{45408C78-E0C9-4DA0-BDCB-D47085E8E403}"
+	ProjectSection(SolutionItems) = preProject
+		srizon-Drifolio-Bootstrap-f5a5f58-v0\fonts\Simple-Line-Icons.dev.svg = srizon-Drifolio-Bootstrap-f5a5f58-v0\fonts\Simple-Line-Icons.dev.svg
+		srizon-Drifolio-Bootstrap-f5a5f58-v0\fonts\Simple-Line-Icons.eot = srizon-Drifolio-Bootstrap-f5a5f58-v0\fonts\Simple-Line-Icons.eot
+		srizon-Drifolio-Bootstrap-f5a5f58-v0\fonts\Simple-Line-Icons.svg = srizon-Drifolio-Bootstrap-f5a5f58-v0\fonts\Simple-Line-Icons.svg
+		srizon-Drifolio-Bootstrap-f5a5f58-v0\fonts\Simple-Line-Icons.ttf = srizon-Drifolio-Bootstrap-f5a5f58-v0\fonts\Simple-Line-Icons.ttf
+		srizon-Drifolio-Bootstrap-f5a5f58-v0\fonts\Simple-Line-Icons.woff = srizon-Drifolio-Bootstrap-f5a5f58-v0\fonts\Simple-Line-Icons.woff
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "js", "js", "{27964C14-EB54-46B0-BE77-90E7720C21BC}"
+	ProjectSection(SolutionItems) = preProject
+		srizon-Drifolio-Bootstrap-f5a5f58-v0\js\drifolio.js = srizon-Drifolio-Bootstrap-f5a5f58-v0\js\drifolio.js
+		srizon-Drifolio-Bootstrap-f5a5f58-v0\js\jquery.easing.min.js = srizon-Drifolio-Bootstrap-f5a5f58-v0\js\jquery.easing.min.js
+		srizon-Drifolio-Bootstrap-f5a5f58-v0\js\jquery.nicescroll.min.js = srizon-Drifolio-Bootstrap-f5a5f58-v0\js\jquery.nicescroll.min.js
+		srizon-Drifolio-Bootstrap-f5a5f58-v0\js\jribbble.min.js = srizon-Drifolio-Bootstrap-f5a5f58-v0\js\jribbble.min.js
+		srizon-Drifolio-Bootstrap-f5a5f58-v0\js\wow.min.js = srizon-Drifolio-Bootstrap-f5a5f58-v0\js\wow.min.js
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0D9A150F-D385-46AF-9C74-2ACE2AE6C704} = {C664C184-FA0A-4D22-8E00-5B57EC0EE2B9}
+		{FD9F3757-294A-4617-9118-4F4B7189E0B5} = {C664C184-FA0A-4D22-8E00-5B57EC0EE2B9}
+		{3A01CF02-B6C9-4DC5-8E4D-E3CB36542645} = {FD9F3757-294A-4617-9118-4F4B7189E0B5}
+		{45408C78-E0C9-4DA0-BDCB-D47085E8E403} = {C664C184-FA0A-4D22-8E00-5B57EC0EE2B9}
+		{27964C14-EB54-46B0-BE77-90E7720C21BC} = {C664C184-FA0A-4D22-8E00-5B57EC0EE2B9}
+	EndGlobalSection
+EndGlobal
