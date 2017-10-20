@@ -136,11 +136,11 @@ footer .subscribe-container {
     }
 
     .card-description {
-        -webkit-transform: translateY(70%);
-        -ms-transform: translateY(70%);
-        -o-transform: translateY(70%);
-        transform: translateY(70%);
-        opacity: 0.8;
+        -webkit-transform: translateY(0%);
+        -ms-transform: translateY(0%);
+        -o-transform: translateY(0%);
+        transform: translateY(0%);
+        opacity: 0.4;
         position: absolute;
         top: 0px;
         left: 0px;
@@ -151,12 +151,30 @@ footer .subscribe-container {
         color: #fff;
     }
 
-    .txt-description .name{
-        font-size: 12px;
+    .txt-description .name {
+        -webkit-transform: translateY(58%);
+        -ms-transform: translateY(58%);
+        -o-transform: translateY(58%);
+        transform: translateY(58%);
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        font-size: 11px;
     }
 
-    .txt-description .role{
-        font-size: 10px;
+    .txt-description .role {
+        -webkit-transform: translateY(75%);
+        -ms-transform: translateY(75%);
+        -o-transform: translateY(75%);
+        transform: translateY(75%);
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        font-size: 9px;
     }
 
     .txt-description span{
