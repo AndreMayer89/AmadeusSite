@@ -72,6 +72,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "js", "js", "{27964C14-EB54-
 		srizon-Drifolio-Bootstrap-f5a5f58-v0\js\wow.min.js = srizon-Drifolio-Bootstrap-f5a5f58-v0\js\wow.min.js
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "icons", "icons", "{58F9724D-9A83-4E02-A418-2F43324E0B1F}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Downloads\sound-waves.svg = ..\..\..\Downloads\sound-waves.svg
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -82,5 +87,6 @@ Global
 		{3A01CF02-B6C9-4DC5-8E4D-E3CB36542645} = {FD9F3757-294A-4617-9118-4F4B7189E0B5}
 		{45408C78-E0C9-4DA0-BDCB-D47085E8E403} = {C664C184-FA0A-4D22-8E00-5B57EC0EE2B9}
 		{27964C14-EB54-46B0-BE77-90E7720C21BC} = {C664C184-FA0A-4D22-8E00-5B57EC0EE2B9}
+		{58F9724D-9A83-4E02-A418-2F43324E0B1F} = {FD9F3757-294A-4617-9118-4F4B7189E0B5}
 	EndGlobalSection
 EndGlobal
