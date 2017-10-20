@@ -1,9 +1,9 @@
 .team .image-cropper {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     position: relative;
     overflow: hidden;
-    border-radius: 50%;
+    /*border-radius: 50%;*/
 }
 
 .team img {
@@ -11,6 +11,11 @@
     margin: 0 auto;
     height: 100%;
     width: auto;
+}
+
+.team .card{
+    width: 20%;
+    float: left;
 }
 
 .team .b1 {
@@ -40,3 +45,4 @@ footer .subscribe-container {
     padding-left: 8%;
     padding-right: 8%;
 }
+
