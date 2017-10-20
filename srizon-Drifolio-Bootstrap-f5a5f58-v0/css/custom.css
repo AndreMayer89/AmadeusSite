@@ -96,3 +96,18 @@ footer .subscribe-container {
     width: 20px;
     display: block;
 }
+
+.image-cropper.blank-card span img{
+    height: 30px;
+    width: 30px;
+    display: block;
+}
+
+.image-cropper.blank-card{
+    background-color: white;
+}
+
+.image-cropper.blank-card p{
+    color:  rgba(48,45,46,1);;
+    font-size: 30px;
+}
