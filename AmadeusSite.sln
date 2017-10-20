@@ -74,6 +74,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "js", "js", "{27964C14-EB54-
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "icons", "icons", "{58F9724D-9A83-4E02-A418-2F43324E0B1F}"
 	ProjectSection(SolutionItems) = preProject
+		srizon-Drifolio-Bootstrap-f5a5f58-v0\img\icons\sound-waves-black.svg = srizon-Drifolio-Bootstrap-f5a5f58-v0\img\icons\sound-waves-black.svg
 		..\..\..\Downloads\sound-waves.svg = ..\..\..\Downloads\sound-waves.svg
 	EndProjectSection
 EndProject
