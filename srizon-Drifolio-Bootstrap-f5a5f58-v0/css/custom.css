@@ -108,6 +108,58 @@ footer .subscribe-container {
 }
 
 .image-cropper.blank-card p{
-    color:  rgba(48,45,46,1);;
+    color:  rgba(48,45,46,1);
     font-size: 30px;
+}
+
+@media screen and (max-width:500px){
+    .card-description p{
+        margin-bottom: 0px;
+    }
+
+    .team .card{
+        width: 50%;
+        float: left;
+        line-height: 12px;
+    }
+
+    .team .image-cropper {
+        width: 120px;
+        height: 120px;
+        position: relative;
+        overflow: hidden;
+        /*border-radius: 50%;*/
+    }
+
+    .image-cropper.blank-card p{
+        font-size: 20px;
+    }
+
+    .card-description {
+        -webkit-transform: translateY(70%);
+        -ms-transform: translateY(70%);
+        -o-transform: translateY(70%);
+        transform: translateY(70%);
+        opacity: 0.8;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        background-color: rgba(48,45,46,.8);
+        text-align: center;
+        color: #fff;
+    }
+
+    .txt-description .name{
+        font-size: 12px;
+    }
+
+    .txt-description .role{
+        font-size: 10px;
+    }
+
+    .txt-description span{
+        display: none;
+    }
 }
