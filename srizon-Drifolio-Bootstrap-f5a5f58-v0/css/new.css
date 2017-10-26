@@ -24,7 +24,7 @@
         font-weight: bold;
     }
 
-     #section-main input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+        #section-main input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
             font-size: 16px;
             line-height: 1.25;
             text-align: left;
@@ -55,5 +55,11 @@
     #section-main button.btn-subscribe {
         border-radius: 4px;
         background-image: linear-gradient(115deg, #ff6c72, #6737a0);
+        background-repeat: no-repeat;
+        border: none;
         box-shadow: 0 1px 6px 0 rgba(145, 106, 191, 0.5);
+    }
+
+    #section-main .main-title, .secondary-title {
+        margin-top: 0px;
     }

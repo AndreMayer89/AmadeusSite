@@ -52,23 +52,8 @@ footer .subscribe-container {
     color:#ea9312; 
 }
 
-/*.card h5{
-    height: 30px;
-}*/
-@media only screen and (max-width : 780px) {
-    .team .card{
-        width: 33%;
-    }
-}
-
-@media only screen and (max-width : 640px) {
-    .team .card{
-        width: 50%;
-    }
-}
-
-@media only screen and (max-width : 480px) {
-    .team .card{
-        width: 100%;
-    }
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
 }

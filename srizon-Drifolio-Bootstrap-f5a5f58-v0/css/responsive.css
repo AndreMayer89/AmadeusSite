@@ -67,6 +67,10 @@
         padding-top: 30px;
     }
 
+    .team .card{
+        width: 50%;
+    }
+
     /*About section*/
     #about {
         text-align: center;
@@ -84,6 +88,10 @@
         height: 500px;
     }
 
+    .team .card{
+        width: 100%;
+    }
+
     .footersocial li {
         font-size: 1.5em;
     }
@@ -98,5 +106,11 @@
     #section-main .container {
         padding-top: 100px;
         padding-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width : 780px) {
+    .team .card{
+        width: 33%;
     }
 }
