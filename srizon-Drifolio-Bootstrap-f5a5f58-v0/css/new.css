@@ -1,7 +1,7 @@
 ﻿#section-main {
     color: #FFFFFF;
     text-align: center;
-    background: url(../img/waves.png)no-repeat;
+    background: url(../img/waves.jpg)no-repeat;
     background-position: 50% 50%;
     background-size: cover;
     max-height: 550px;
@@ -62,4 +62,50 @@
 
     #section-main .main-title, .secondary-title {
         margin-top: 0px;
+    }
+
+
+
+
+#section-services {
+    text-align: center;
+}
+
+    #section-services .partners {
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    #section-services h4 {
+        color: #777590;
+    }
+
+    #section-services h3, a {
+        color: #512980;
+    }
+
+    #section-services a {
+        text-decoration: underline;
+    }
+
+        #section-services a:hover {
+            color: rgba(145,106,191,0.5);
+            text-decoration: none;
+        }
+
+    #section-services p.service-name {
+        color: #000000;
+        font-size: 20px;
+        letter-spacing: 0.1px;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    #section-services p.service-description {
+        color: #777590;
+        font-size: 16px;
+        letter-spacing: 0.1px;
+        line-height: 1.75;
+        text-align: center;
     }

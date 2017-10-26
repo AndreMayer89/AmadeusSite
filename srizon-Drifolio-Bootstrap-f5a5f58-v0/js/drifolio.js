@@ -99,15 +99,3 @@ $(function () {
 
     });
 }(jQuery));
-
-
-//========================
-//icon hover effect
-//========================
-$('#services img').hover(
-    function () {
-        $(this).addClass('animated pulse')
-    },
-    function () {
-        $(this).removeClass('animated pulse')
-    })
