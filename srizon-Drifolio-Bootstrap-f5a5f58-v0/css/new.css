@@ -149,6 +149,20 @@
         padding-right: 16%;
     }
 
+    #section-team .card p{
+        font-family: 'latoregular';
+    }
+
+    #section-team p.team-name{
+        color: #000000;
+        font-size: 15px;
+    }
+
+    #section-team p.team-description{
+        color: #777590;
+        font-size: 14px;
+        line-height: 1.4em;
+    }
 
 #section-footer {
     background: linear-gradient(to bottom, #2f295f, #151231);
@@ -197,4 +211,15 @@
         width: 14%;
         float: left;
         text-align: center;
+    }
+
+#section-menu{
+    background-color: #151231;
+    border-color: #151231;
+    font-family: 'latobold';
+    font-size: 16px;
+}
+
+    #section-menu .navbar li.active{
+        background-color: #151231;
     }

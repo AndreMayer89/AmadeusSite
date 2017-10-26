@@ -95,7 +95,7 @@
     top: 70px;
 }
 
-.team .card:last-child .image-cropper::after{
+.team .row:last-child .card:nth-last-child(2) .image-cropper::after{
     content:none;
     position: absolute;
     z-index: 100;
