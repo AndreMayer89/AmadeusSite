@@ -13,18 +13,22 @@
     }
 
     #section-main input {
-        opacity: 0.11;
+        border: none;
         border-radius: 3px;
-        background-color: #ffffff;
+        background-color: rgba(177, 177, 177, 0.5);
         box-shadow: 0 0 8px 0 rgba(177, 177, 177, 0.5);
+        font-size: 16px;
+        line-height: 1.25;
+        text-align: left;
+        color: rgba(160,159,172,1);
+        font-weight: bold;
     }
 
-        #section-main input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+     #section-main input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
             font-size: 16px;
             line-height: 1.25;
             text-align: left;
             color: rgba(160,159,172,1);
-            opacity: 1 !important;
         }
 
         #section-main input::-moz-placeholder { /* Firefox 19+ */
@@ -32,7 +36,6 @@
             line-height: 1.25;
             text-align: left;
             color: rgba(160,159,172,1);
-            opacity: 1 !important;
         }
 
         #section-main input:-ms-input-placeholder { /* IE 10+ */
@@ -40,7 +43,6 @@
             line-height: 1.25;
             text-align: left;
             color: rgba(160,159,172,1);
-            opacity: 1 !important;
         }
 
         #section-main input:-moz-placeholder { /* Firefox 18- */
@@ -48,7 +50,6 @@
             line-height: 1.25;
             text-align: left;
             color: rgba(160,159,172,1);
-            opacity: 1 !important;
         }
 
     #section-main button.btn-subscribe {
