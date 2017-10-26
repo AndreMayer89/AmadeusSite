@@ -137,7 +137,7 @@
     text-align: center;
 }
 
-    #section-team h3, a {
+    #section-team h3 {
         color: #512980;
     }
 
@@ -213,13 +213,25 @@
         text-align: center;
     }
 
+     #section-footer .social a{
+        color: #76729f;
+    }
+
 #section-menu{
     background-color: #151231;
     border-color: #151231;
     font-family: 'latobold';
     font-size: 16px;
+    color: #a09fac;
 }
 
-    #section-menu .navbar li.active{
+    #section-menu a{
+            color: #a09fac;
+        }
+
+    #section-menu .nav li.active a,
+    #section-menu .nav li:hover,
+    #section-menu .nav li a:hover{
         background-color: #151231;
+        color: #bc5585;
     }
