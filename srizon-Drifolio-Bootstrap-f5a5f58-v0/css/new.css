@@ -1,0 +1,58 @@
+﻿#section-main {
+    color: #FFFFFF;
+    text-align: center;
+    background: url(../img/waves.png)no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    max-height: 550px;
+    overflow: hidden;
+}
+
+    #section-main .container {
+        padding-top: 60px;
+    }
+
+    #section-main input {
+        opacity: 0.11;
+        border-radius: 3px;
+        background-color: #ffffff;
+        box-shadow: 0 0 8px 0 rgba(177, 177, 177, 0.5);
+    }
+
+        #section-main input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+            font-size: 16px;
+            line-height: 1.25;
+            text-align: left;
+            color: rgba(160,159,172,1);
+            opacity: 1 !important;
+        }
+
+        #section-main input::-moz-placeholder { /* Firefox 19+ */
+            font-size: 16px;
+            line-height: 1.25;
+            text-align: left;
+            color: rgba(160,159,172,1);
+            opacity: 1 !important;
+        }
+
+        #section-main input:-ms-input-placeholder { /* IE 10+ */
+            font-size: 16px;
+            line-height: 1.25;
+            text-align: left;
+            color: rgba(160,159,172,1);
+            opacity: 1 !important;
+        }
+
+        #section-main input:-moz-placeholder { /* Firefox 18- */
+            font-size: 16px;
+            line-height: 1.25;
+            text-align: left;
+            color: rgba(160,159,172,1);
+            opacity: 1 !important;
+        }
+
+    #section-main button.btn-subscribe {
+        border-radius: 4px;
+        background-image: linear-gradient(115deg, #ff6c72, #6737a0);
+        box-shadow: 0 1px 6px 0 rgba(145, 106, 191, 0.5);
+    }

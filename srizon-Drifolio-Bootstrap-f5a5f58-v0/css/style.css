@@ -73,28 +73,6 @@ hr.separetor{
     margin-right: 10px;
 }
 
-
-/*================================
-HERO AREA
-================================*/
-#hero{
-    color: #fff;
-    text-align: center;
-    background: url(../img/background.jpg)no-repeat; /*your background image*/
-    background-size: cover;
-    max-height: 450px;
-    overflow: hidden;
-}
-
-.herocontent{
-    padding-top: 100px;
-}
-.heroshot{
-    margin-top: 20px;
-    width: 100%;
-    max-width: 1200px;
-}
-
 /*================================
 CLIENTS SECTION
 ================================*/

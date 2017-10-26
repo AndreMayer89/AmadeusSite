@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26730.16
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C664C184-FA0A-4D22-8E00-5B57EC0EE2B9}"
 	ProjectSection(SolutionItems) = preProject
@@ -13,6 +13,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "css", "css", "{0D9A150F-D38
 	ProjectSection(SolutionItems) = preProject
 		srizon-Drifolio-Bootstrap-f5a5f58-v0\css\animate.css = srizon-Drifolio-Bootstrap-f5a5f58-v0\css\animate.css
 		srizon-Drifolio-Bootstrap-f5a5f58-v0\css\custom.css = srizon-Drifolio-Bootstrap-f5a5f58-v0\css\custom.css
+		srizon-Drifolio-Bootstrap-f5a5f58-v0\css\new.css = srizon-Drifolio-Bootstrap-f5a5f58-v0\css\new.css
 		srizon-Drifolio-Bootstrap-f5a5f58-v0\css\preloader.css = srizon-Drifolio-Bootstrap-f5a5f58-v0\css\preloader.css
 		srizon-Drifolio-Bootstrap-f5a5f58-v0\css\responsive.css = srizon-Drifolio-Bootstrap-f5a5f58-v0\css\responsive.css
 		srizon-Drifolio-Bootstrap-f5a5f58-v0\css\simple-line-icons.css = srizon-Drifolio-Bootstrap-f5a5f58-v0\css\simple-line-icons.css
