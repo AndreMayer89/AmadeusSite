@@ -95,6 +95,18 @@
     top: 70px;
 }
 
+.team .card:last-child .image-cropper::after{
+    content:none;
+    position: absolute;
+    z-index: 100;
+    right: 0px;
+    top: 70px;
+}
+
+.team .card h5{
+    height: 40px;
+}
+
 
 .team img {
     display: inline;

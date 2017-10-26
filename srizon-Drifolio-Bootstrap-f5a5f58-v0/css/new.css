@@ -16,7 +16,8 @@
         padding-top: 60px;
     }
 
-    #section-main input {
+    #section-main input,
+    #section-footer input {
         border: none;
         border-radius: 0px;
         background-color: rgba(177, 177, 177, 0.5);
@@ -29,35 +30,40 @@
         height: 45px;
     }
 
-        #section-main input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+        #section-main input::-webkit-input-placeholder,
+        #section-footer input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
             font-size: 15px;
             line-height: 1.25;
             text-align: left;
             color: rgba(160,159,172,1);
         }
 
-        #section-main input::-moz-placeholder { /* Firefox 19+ */
+        #section-main input::-moz-placeholder,
+        #section-footer input::-moz-placeholder { /* Firefox 19+ */
             font-size: 16px;
             line-height: 1.25;
             text-align: left;
             color: rgba(160,159,172,1);
         }
 
-        #section-main input:-ms-input-placeholder { /* IE 10+ */
+        #section-main input:-ms-input-placeholder,
+        #section-footer input:-ms-input-placeholder { /* IE 10+ */
             font-size: 16px;
             line-height: 1.25;
             text-align: left;
             color: rgba(160,159,172,1);
         }
 
-        #section-main input:-moz-placeholder { /* Firefox 18- */
+        #section-main input:-moz-placeholder,
+        #section-footer input:-moz-placeholder{ /* Firefox 18- */
             font-size: 14px;
             line-height: 1.25;
             text-align: left;
             color: rgba(160,159,172,1);
         }
 
-    #section-main button.btn-subscribe {
+    #section-main button.btn-subscribe,
+    #section-footer button.btn-subscribe{
         border-radius: 0px;
         background-image: linear-gradient(115deg, #ff6c72, #6737a0);
         background-repeat: no-repeat;
@@ -68,6 +74,7 @@
         padding-left: 15px;
         padding-right: 15px;
         font-size: 14px;
+        color: #ffffff;
     }
 
     #section-main .main-title, .secondary-title {
@@ -140,4 +147,39 @@
         font-size: 15px;
         padding-left: 16%;
         padding-right: 16%;
+    }
+
+
+#section-footer{
+    background: linear-gradient(to bottom, #2f295f, #151231);
+}
+
+    #section-footer h3{
+        font-family: 'latolight';
+        color: #a09fac;
+    }
+
+    #section-footer .footer-itens{
+        text-align: left;
+        font-family: 'latoregular';
+    }
+
+    #section-footer .footer-itens p{
+        margin-bottom: 0px;
+    }
+
+    #section-footer .footer-itens a{
+        color: #bc5585;
+        text-decoration: underline;
+        font-family: 'latoregular';
+    }
+
+    #section-footer .footer-item-title{
+        font-family: 'latoregular';
+        color: #ffffff;
+    }
+
+     #section-footer .footer-item-description{
+        font-family: 'latoregular';
+        color: #a09fac;
     }
