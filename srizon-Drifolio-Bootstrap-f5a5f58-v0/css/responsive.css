@@ -42,6 +42,20 @@
     .collapse.in {
         display: block !important;
     }
+
+    .footer-item-title, .footer-item-description, .footer-item-contact {
+        text-align: center;
+    }
+
+    #section-footer .footer-itens .container-contact {
+        text-align: center;
+    }
+
+    #section-footer .social {
+        width: 28%;
+        float: left;
+        text-align: center;
+    }
 }
 
 
@@ -111,6 +125,6 @@
 
 @media only screen and (max-width : 780px) {
     .team .card{
-        width: 33%;
+        width: 50%;
     }
 }

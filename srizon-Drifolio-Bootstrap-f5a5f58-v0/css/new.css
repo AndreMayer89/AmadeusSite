@@ -55,7 +55,7 @@
         }
 
         #section-main input:-moz-placeholder,
-        #section-footer input:-moz-placeholder{ /* Firefox 18- */
+        #section-footer input:-moz-placeholder { /* Firefox 18- */
             font-size: 14px;
             line-height: 1.25;
             text-align: left;
@@ -63,7 +63,7 @@
         }
 
     #section-main button.btn-subscribe,
-    #section-footer button.btn-subscribe{
+    #section-footer button.btn-subscribe {
         border-radius: 0px;
         background-image: linear-gradient(115deg, #ff6c72, #6737a0);
         background-repeat: no-repeat;
@@ -133,7 +133,7 @@
         padding-right: 20px;
     }
 
-#section-team{
+#section-team {
     text-align: center;
 }
 
@@ -150,36 +150,51 @@
     }
 
 
-#section-footer{
+#section-footer {
     background: linear-gradient(to bottom, #2f295f, #151231);
 }
 
-    #section-footer h3{
+    #section-footer h3 {
         font-family: 'latolight';
         color: #a09fac;
     }
 
-    #section-footer .footer-itens{
+    #section-footer .footer-itens {
         text-align: left;
         font-family: 'latoregular';
     }
 
-    #section-footer .footer-itens p{
-        margin-bottom: 0px;
-    }
+        #section-footer .footer-itens p {
+            margin-bottom: 0px;
+        }
 
-    #section-footer .footer-itens a{
-        color: #bc5585;
-        text-decoration: underline;
-        font-family: 'latoregular';
-    }
+        #section-footer .footer-itens a {
+            color: rgb(188,85,133);
+            text-decoration: underline;
+            font-family: 'latoregular';
+        }
 
-    #section-footer .footer-item-title{
+            #section-footer .footer-itens a:hover {
+                color: rgba(188,85,133,0.5);
+                text-decoration: none;
+            }
+
+    #section-footer .footer-item-title {
         font-family: 'latoregular';
         color: #ffffff;
     }
 
-     #section-footer .footer-item-description{
+    #section-footer .footer-item-description {
         font-family: 'latoregular';
         color: #a09fac;
+    }
+
+    #section-footer .social-begin, .social-end {
+        width: 8%;
+    }
+
+    #section-footer .social {
+        width: 14%;
+        float: left;
+        text-align: center;
     }
