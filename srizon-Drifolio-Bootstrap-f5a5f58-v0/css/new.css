@@ -1,4 +1,8 @@
-﻿h1, h2, h3, h4 {
+﻿.nav.navbar-nav.navbar-right {
+    margin-top: 10px;
+}
+
+h1, h2, h3, h4 {
     font-family: 'latolight';
 }
 
@@ -8,9 +12,15 @@
     background: url(../img/waves.jpg)no-repeat;
     background-position: 50% 50%;
     background-size: cover;
-    max-height: 550px;
+    max-height: 626px;
     overflow: hidden;
 }
+
+    #section-main .subtitulo-principal {
+        font-family: 'latolight';
+        font-size: 26px;
+        text-align: left;
+    }
 
     #section-main .container {
         padding-top: 60px;
@@ -25,7 +35,7 @@
         font-size: 16px;
         line-height: 1.25;
         text-align: left;
-        color: rgba(160,159,172,1);
+        color: rgba(255,255,255,1);
         font-family: 'latoregular';
         height: 45px;
     }
@@ -113,6 +123,24 @@
             text-decoration: none;
         }
 
+    #section-services .container-img {
+        height: 102px; /* equals max image height */
+        white-space: nowrap; /* this is required unless you put the helper span closely near the img */
+        text-align: center;
+        margin: 1em 0;
+    }
+
+        #section-services .container-img .helper {
+            display: inline-block;
+            height: 100%;
+            vertical-align: middle;
+        }
+
+        #section-services .container-img img {
+            vertical-align: middle;
+            max-height: 102px;
+        }
+
     #section-services p.service-name {
         color: #000000;
         font-size: 19px;
@@ -149,24 +177,71 @@
         padding-right: 16%;
     }
 
-    #section-team .card p{
+    #section-team .card p {
         font-family: 'latoregular';
     }
 
-    #section-team p.team-name{
+    #section-team p.team-name {
         color: #000000;
         font-size: 15px;
+        margin-top: 8px;
     }
 
-    #section-team p.team-description{
+    #section-team p.team-description {
         color: #777590;
         font-size: 14px;
         line-height: 1.4em;
-        height:55px;
+        height: 55px;
     }
 
-    #section-team p.team-description a{
-        word-break: break-all;
+        #section-team p.team-description a {
+            word-break: break-all;
+        }
+
+    #section-team .team .image-cropper {
+        width: 100px;
+        height: 100px;
+        position: relative;
+        overflow: hidden;
+    }
+
+        #section-team .team .image-cropper::after {
+            content: url(../img/icone_linkedin.png);
+            position: absolute;
+            z-index: 100;
+            right: 0px;
+            top: 70px;
+        }
+
+    #section-team .team .row:last-child .card:nth-last-child(2) .image-cropper::after {
+        content: none;
+        position: absolute;
+        z-index: 100;
+        right: 0px;
+        top: 70px;
+    }
+
+    #section-team .team img {
+        display: inline;
+        margin: 0 auto;
+        height: 100%;
+        width: auto;
+        border-radius: 50%;
+    }
+
+    #section-team .card {
+        margin-bottom: 15px;
+    }
+
+        #section-team .card i.card-linkedin {
+            font-size: 14px;
+            vertical-align: super;
+            color: #ea9312;
+        }
+
+    #section-team .join-us a {
+        font-size: 12px;
+        cursor: pointer;
     }
 
 #section-footer {
@@ -218,11 +293,16 @@
         text-align: center;
     }
 
-     #section-footer .social a{
-        color: #76729f;
+        #section-footer .social a {
+            color: #76729f;
+        }
+
+    #section-footer .subscribe-container {
+        padding-left: 8%;
+        padding-right: 8%;
     }
 
-#section-menu{
+#section-menu {
     background-color: #151231;
     border-color: #151231;
     font-family: 'latobold';
@@ -230,34 +310,35 @@
     color: #a09fac;
 }
 
-    #section-menu a{
-            color: #a09fac;
-        }
+    #section-menu a {
+        color: #a09fac;
+    }
 
     #section-menu .nav li.active a,
     #section-menu .nav li:hover,
-    #section-menu .nav li a:hover{
+    #section-menu .nav li a:hover {
         background-color: #151231;
         color: #bc5585;
     }
 
 
- #section-roadmap .road-map-background{
+#section-roadmap .road-map-background {
     width: 100%;
-	height: 450px;
-	-webkit-transform: skewY(-3deg);
-	   -moz-transform: skewY(-3deg);
-	     -o-transform: skewY(-3deg);
-	background: #f9f8fb;
+    height: 450px;
+    -webkit-transform: skewY(-3deg);
+    -moz-transform: skewY(-3deg);
+    -o-transform: skewY(-3deg);
+    background: #f9f8fb;
 }
 
-#section-roadmap .road-map-background p,
-#section-roadmap .road-map-background timeline{
-	-webkit-transform: skewY(3deg);
-	   -moz-transform: skewY(3deg);
-	     -o-transform: skewY(3deg);
-}
-#section-roadmap .timeline{
+    #section-roadmap .road-map-background p,
+    #section-roadmap .road-map-background timeline {
+        -webkit-transform: skewY(3deg);
+        -moz-transform: skewY(3deg);
+        -o-transform: skewY(3deg);
+    }
+
+#section-roadmap .timeline {
     padding-top: 10px;
     text-align: center;
 }
