@@ -12,12 +12,10 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "css", "css", "{0D9A150F-D385-46AF-9C74-2ACE2AE6C704}"
 	ProjectSection(SolutionItems) = preProject
 		srizon-Drifolio-Bootstrap-f5a5f58-v0\css\animate.css = srizon-Drifolio-Bootstrap-f5a5f58-v0\css\animate.css
-		srizon-Drifolio-Bootstrap-f5a5f58-v0\css\custom.css = srizon-Drifolio-Bootstrap-f5a5f58-v0\css\custom.css
+		srizon-Drifolio-Bootstrap-f5a5f58-v0\css\fonts.css = srizon-Drifolio-Bootstrap-f5a5f58-v0\css\fonts.css
 		srizon-Drifolio-Bootstrap-f5a5f58-v0\css\new.css = srizon-Drifolio-Bootstrap-f5a5f58-v0\css\new.css
-		srizon-Drifolio-Bootstrap-f5a5f58-v0\css\preloader.css = srizon-Drifolio-Bootstrap-f5a5f58-v0\css\preloader.css
 		srizon-Drifolio-Bootstrap-f5a5f58-v0\css\responsive.css = srizon-Drifolio-Bootstrap-f5a5f58-v0\css\responsive.css
 		srizon-Drifolio-Bootstrap-f5a5f58-v0\css\simple-line-icons.css = srizon-Drifolio-Bootstrap-f5a5f58-v0\css\simple-line-icons.css
-		srizon-Drifolio-Bootstrap-f5a5f58-v0\css\style.css = srizon-Drifolio-Bootstrap-f5a5f58-v0\css\style.css
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "img", "img", "{FD9F3757-294A-4617-9118-4F4B7189E0B5}"
