@@ -248,7 +248,7 @@
                         <a class="footer-item-contact" href="mailto:team@amadeusrelay.org">team@amadeusrelay.org</a>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4 fadeInUp">
+                <div class="col-md-6 col-lg-4">
                     <p class="footer-item-title">Follow us at</p>
                     <br />
                     <div class="row container-social">
@@ -269,11 +269,50 @@
     <script src="https://code.jquery.com/jquery-latest.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
     <script src="js/jquery.nicescroll.min.js"></script>
-    <script src="js/jribbble.min.js"></script>
-    <script src="js/drifolio.js"></script>
     <script src="js/wow.min.js"></script>
     <script>
         new WOW().init();
+        $(function () {
+            $('body').delay(350).css({
+                'overflow': 'visible'
+            });
+
+            $("html").niceScroll({
+                mousescrollstep: 70,
+                cursorcolor: "#ea9312",
+                cursorwidth: "5px",
+                cursorborderradius: "10px",
+                cursorborder: "none",
+            });
+
+            $('a[href*=#]:not([href=#])').click(function () {
+                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                    if (target.length) {
+                        $('html,body').animate({
+                            scrollTop: target.offset().top
+                        }, 1000);
+                        return false;
+                    }
+                }
+            });
+
+            //$(".navbar").hide();
+            //    $(window).scroll(function () {
+            //        if ($(this).scrollTop() > 40) {
+            //            $('.navbar')
+            //                .removeClass('animated fadeOutUp')
+            //                .addClass('animated fadeInDown')
+            //                .fadeIn();
+            //        } else {
+            //            $('.navbar')
+            //                .removeClass('animated fadeInDown')
+            //                .addClass('animated fadeOutUp')
+            //                .fadeOut();
+            //        }
+            //    });
+        });
     </script>
 </body>
 </html>

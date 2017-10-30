@@ -30,7 +30,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "img", "img", "{FD9F3757-294
 		srizon-Drifolio-Bootstrap-f5a5f58-v0\img\s1.png = srizon-Drifolio-Bootstrap-f5a5f58-v0\img\s1.png
 		srizon-Drifolio-Bootstrap-f5a5f58-v0\img\s2.png = srizon-Drifolio-Bootstrap-f5a5f58-v0\img\s2.png
 		srizon-Drifolio-Bootstrap-f5a5f58-v0\img\s3.png = srizon-Drifolio-Bootstrap-f5a5f58-v0\img\s3.png
-		srizon-Drifolio-Bootstrap-f5a5f58-v0\img\trianglify-background.svg = srizon-Drifolio-Bootstrap-f5a5f58-v0\img\trianglify-background.svg
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "team", "team", "{3A01CF02-B6C9-4DC5-8E4D-E3CB36542645}"
@@ -78,10 +77,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "fonts", "fonts", "{45408C78
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "js", "js", "{27964C14-EB54-46B0-BE77-90E7720C21BC}"
 	ProjectSection(SolutionItems) = preProject
-		srizon-Drifolio-Bootstrap-f5a5f58-v0\js\drifolio.js = srizon-Drifolio-Bootstrap-f5a5f58-v0\js\drifolio.js
-		srizon-Drifolio-Bootstrap-f5a5f58-v0\js\jquery.easing.min.js = srizon-Drifolio-Bootstrap-f5a5f58-v0\js\jquery.easing.min.js
 		srizon-Drifolio-Bootstrap-f5a5f58-v0\js\jquery.nicescroll.min.js = srizon-Drifolio-Bootstrap-f5a5f58-v0\js\jquery.nicescroll.min.js
-		srizon-Drifolio-Bootstrap-f5a5f58-v0\js\jribbble.min.js = srizon-Drifolio-Bootstrap-f5a5f58-v0\js\jribbble.min.js
 		srizon-Drifolio-Bootstrap-f5a5f58-v0\js\wow.min.js = srizon-Drifolio-Bootstrap-f5a5f58-v0\js\wow.min.js
 	EndProjectSection
 EndProject
