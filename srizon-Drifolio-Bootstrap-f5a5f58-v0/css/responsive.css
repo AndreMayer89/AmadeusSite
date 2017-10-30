@@ -8,7 +8,7 @@
 /* Small Devices, Tablets */
 @media only screen and (max-width : 980px) {
     #section-main {
-        height: 750px;
+        height: 600px;
     }
 
     /*ABOUT SECTION*/
@@ -86,7 +86,7 @@
     }
 
     #section-main {
-        height: 400px;
+        height: 590px;
     }
 
         #section-main .container {
@@ -107,7 +107,7 @@
 /* Smaller Mobile Devices */
 @media only screen and (max-width : 480px) {
     #section-main {
-        height: 500px;
+        height: 570px;
     }
 
     .footersocial li {

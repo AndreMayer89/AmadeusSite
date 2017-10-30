@@ -16,7 +16,6 @@ img {
     background: url(../img/waves.jpg)no-repeat;
     background-position: 50% 50%;
     background-size: cover;
-    max-height: 626px;
     overflow: hidden;
     padding-bottom: 100px;
 }
