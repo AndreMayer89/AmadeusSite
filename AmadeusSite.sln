@@ -48,11 +48,32 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "team", "team", "{3A01CF02-B
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "fonts", "fonts", "{45408C78-E0C9-4DA0-BDCB-D47085E8E403}"
 	ProjectSection(SolutionItems) = preProject
-		srizon-Drifolio-Bootstrap-f5a5f58-v0\fonts\Simple-Line-Icons.dev.svg = srizon-Drifolio-Bootstrap-f5a5f58-v0\fonts\Simple-Line-Icons.dev.svg
-		srizon-Drifolio-Bootstrap-f5a5f58-v0\fonts\Simple-Line-Icons.eot = srizon-Drifolio-Bootstrap-f5a5f58-v0\fonts\Simple-Line-Icons.eot
-		srizon-Drifolio-Bootstrap-f5a5f58-v0\fonts\Simple-Line-Icons.svg = srizon-Drifolio-Bootstrap-f5a5f58-v0\fonts\Simple-Line-Icons.svg
-		srizon-Drifolio-Bootstrap-f5a5f58-v0\fonts\Simple-Line-Icons.ttf = srizon-Drifolio-Bootstrap-f5a5f58-v0\fonts\Simple-Line-Icons.ttf
-		srizon-Drifolio-Bootstrap-f5a5f58-v0\fonts\Simple-Line-Icons.woff = srizon-Drifolio-Bootstrap-f5a5f58-v0\fonts\Simple-Line-Icons.woff
+		srizon-Drifolio-Bootstrap-f5a5f58-v0\fonts\lato-black-webfont.woff = srizon-Drifolio-Bootstrap-f5a5f58-v0\fonts\lato-black-webfont.woff
+		srizon-Drifolio-Bootstrap-f5a5f58-v0\fonts\lato-black-webfont.woff2 = srizon-Drifolio-Bootstrap-f5a5f58-v0\fonts\lato-black-webfont.woff2
+		srizon-Drifolio-Bootstrap-f5a5f58-v0\fonts\lato-blackitalic-webfont.woff = srizon-Drifolio-Bootstrap-f5a5f58-v0\fonts\lato-blackitalic-webfont.woff
+		srizon-Drifolio-Bootstrap-f5a5f58-v0\fonts\lato-blackitalic-webfont.woff2 = srizon-Drifolio-Bootstrap-f5a5f58-v0\fonts\lato-blackitalic-webfont.woff2
+		srizon-Drifolio-Bootstrap-f5a5f58-v0\fonts\lato-bold-webfont.ttf = srizon-Drifolio-Bootstrap-f5a5f58-v0\fonts\lato-bold-webfont.ttf
+		srizon-Drifolio-Bootstrap-f5a5f58-v0\fonts\lato-bold-webfont.woff = srizon-Drifolio-Bootstrap-f5a5f58-v0\fonts\lato-bold-webfont.woff
+		srizon-Drifolio-Bootstrap-f5a5f58-v0\fonts\lato-bold-webfont.woff2 = srizon-Drifolio-Bootstrap-f5a5f58-v0\fonts\lato-bold-webfont.woff2
+		srizon-Drifolio-Bootstrap-f5a5f58-v0\fonts\lato-bolditalic-webfont.ttf = srizon-Drifolio-Bootstrap-f5a5f58-v0\fonts\lato-bolditalic-webfont.ttf
+		srizon-Drifolio-Bootstrap-f5a5f58-v0\fonts\lato-bolditalic-webfont.woff = srizon-Drifolio-Bootstrap-f5a5f58-v0\fonts\lato-bolditalic-webfont.woff
+		srizon-Drifolio-Bootstrap-f5a5f58-v0\fonts\lato-bolditalic-webfont.woff2 = srizon-Drifolio-Bootstrap-f5a5f58-v0\fonts\lato-bolditalic-webfont.woff2
+		srizon-Drifolio-Bootstrap-f5a5f58-v0\fonts\lato-hairline-webfont.ttf = srizon-Drifolio-Bootstrap-f5a5f58-v0\fonts\lato-hairline-webfont.ttf
+		srizon-Drifolio-Bootstrap-f5a5f58-v0\fonts\lato-hairline-webfont.woff = srizon-Drifolio-Bootstrap-f5a5f58-v0\fonts\lato-hairline-webfont.woff
+		srizon-Drifolio-Bootstrap-f5a5f58-v0\fonts\lato-hairline-webfont.woff2 = srizon-Drifolio-Bootstrap-f5a5f58-v0\fonts\lato-hairline-webfont.woff2
+		srizon-Drifolio-Bootstrap-f5a5f58-v0\fonts\lato-hairlineitalic-webfont.ttf = srizon-Drifolio-Bootstrap-f5a5f58-v0\fonts\lato-hairlineitalic-webfont.ttf
+		srizon-Drifolio-Bootstrap-f5a5f58-v0\fonts\lato-hairlineitalic-webfont.woff = srizon-Drifolio-Bootstrap-f5a5f58-v0\fonts\lato-hairlineitalic-webfont.woff
+		srizon-Drifolio-Bootstrap-f5a5f58-v0\fonts\lato-hairlineitalic-webfont.woff2 = srizon-Drifolio-Bootstrap-f5a5f58-v0\fonts\lato-hairlineitalic-webfont.woff2
+		srizon-Drifolio-Bootstrap-f5a5f58-v0\fonts\lato-italic-webfont.ttf = srizon-Drifolio-Bootstrap-f5a5f58-v0\fonts\lato-italic-webfont.ttf
+		srizon-Drifolio-Bootstrap-f5a5f58-v0\fonts\lato-italic-webfont.woff = srizon-Drifolio-Bootstrap-f5a5f58-v0\fonts\lato-italic-webfont.woff
+		srizon-Drifolio-Bootstrap-f5a5f58-v0\fonts\lato-italic-webfont.woff2 = srizon-Drifolio-Bootstrap-f5a5f58-v0\fonts\lato-italic-webfont.woff2
+		srizon-Drifolio-Bootstrap-f5a5f58-v0\fonts\lato-light-webfont.ttf = srizon-Drifolio-Bootstrap-f5a5f58-v0\fonts\lato-light-webfont.ttf
+		srizon-Drifolio-Bootstrap-f5a5f58-v0\fonts\lato-light-webfont.woff = srizon-Drifolio-Bootstrap-f5a5f58-v0\fonts\lato-light-webfont.woff
+		srizon-Drifolio-Bootstrap-f5a5f58-v0\fonts\lato-light-webfont.woff2 = srizon-Drifolio-Bootstrap-f5a5f58-v0\fonts\lato-light-webfont.woff2
+		srizon-Drifolio-Bootstrap-f5a5f58-v0\fonts\lato-lightitalic-webfont.woff = srizon-Drifolio-Bootstrap-f5a5f58-v0\fonts\lato-lightitalic-webfont.woff
+		srizon-Drifolio-Bootstrap-f5a5f58-v0\fonts\lato-lightitalic-webfont.woff2 = srizon-Drifolio-Bootstrap-f5a5f58-v0\fonts\lato-lightitalic-webfont.woff2
+		srizon-Drifolio-Bootstrap-f5a5f58-v0\fonts\lato-regular-webfont.woff = srizon-Drifolio-Bootstrap-f5a5f58-v0\fonts\lato-regular-webfont.woff
+		srizon-Drifolio-Bootstrap-f5a5f58-v0\fonts\lato-regular-webfont.woff2 = srizon-Drifolio-Bootstrap-f5a5f58-v0\fonts\lato-regular-webfont.woff2
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "js", "js", "{27964C14-EB54-46B0-BE77-90E7720C21BC}"
@@ -66,8 +87,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "js", "js", "{27964C14-EB54-
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "icons", "icons", "{58F9724D-9A83-4E02-A418-2F43324E0B1F}"
 	ProjectSection(SolutionItems) = preProject
+		srizon-Drifolio-Bootstrap-f5a5f58-v0\img\icons\combined-shape.svg = srizon-Drifolio-Bootstrap-f5a5f58-v0\img\icons\combined-shape.svg
+		srizon-Drifolio-Bootstrap-f5a5f58-v0\img\icons\facebook.png = srizon-Drifolio-Bootstrap-f5a5f58-v0\img\icons\facebook.png
+		srizon-Drifolio-Bootstrap-f5a5f58-v0\img\icons\facebook.svg = srizon-Drifolio-Bootstrap-f5a5f58-v0\img\icons\facebook.svg
+		srizon-Drifolio-Bootstrap-f5a5f58-v0\img\icons\fill-50.svg = srizon-Drifolio-Bootstrap-f5a5f58-v0\img\icons\fill-50.svg
 		srizon-Drifolio-Bootstrap-f5a5f58-v0\img\icons\sound-waves-black.svg = srizon-Drifolio-Bootstrap-f5a5f58-v0\img\icons\sound-waves-black.svg
-		..\..\Downloads\sound-waves.svg = ..\..\Downloads\sound-waves.svg
+		srizon-Drifolio-Bootstrap-f5a5f58-v0\img\icons\sound-waves.png = srizon-Drifolio-Bootstrap-f5a5f58-v0\img\icons\sound-waves.png
+		srizon-Drifolio-Bootstrap-f5a5f58-v0\img\icons\sound-waves.svg = srizon-Drifolio-Bootstrap-f5a5f58-v0\img\icons\sound-waves.svg
+		srizon-Drifolio-Bootstrap-f5a5f58-v0\img\icons\twitter.svg = srizon-Drifolio-Bootstrap-f5a5f58-v0\img\icons\twitter.svg
 	EndProjectSection
 EndProject
 Global
