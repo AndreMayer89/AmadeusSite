@@ -8,7 +8,7 @@
 /* Small Devices, Tablets */
 @media only screen and (max-width : 980px) {
     #section-main {
-        height: 550px;
+        height: 750px;
     }
 
     /*ABOUT SECTION*/
@@ -43,12 +43,24 @@
         display: block !important;
     }
 
+    #section-services.container {
+        margin-bottom: 40px;
+    }
+
+        #section-services .service-item {
+            margin-bottom: 50px;
+        }
+
     .footer-item-title, .footer-item-description, .footer-item-contact {
         text-align: center;
     }
 
     #section-footer .footer-itens .container-contact {
         text-align: center;
+    }
+
+    #section-footer .footer-itens .footer-item {
+        margin-bottom: 45px;
     }
 
     #section-footer .container-social .social {
@@ -77,9 +89,9 @@
         height: 400px;
     }
 
-    #section-main .container {
-        padding-top: 30px;
-    }
+        #section-main .container {
+            padding-top: 30px;
+        }
 
     /*About section*/
     #about {
@@ -109,8 +121,8 @@
         height: 480px;
     }
 
-    #section-main .container {
-        padding-top: 100px;
-        padding-bottom: 30px;
-    }
+        #section-main .container {
+            padding-top: 100px;
+            padding-bottom: 30px;
+        }
 }
