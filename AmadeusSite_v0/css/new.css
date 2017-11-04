@@ -306,7 +306,7 @@ img {
 
     #section-footer .social {
         width: 14%;
-        float: left;
+        display: inline-block;
         text-align: center;
     }
 

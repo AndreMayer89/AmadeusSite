@@ -47,9 +47,9 @@
         margin-bottom: 40px;
     }
 
-        #section-services .service-item {
-            margin-bottom: 50px;
-        }
+    #section-services .service-item {
+        margin-bottom: 50px;
+    }
 
     .footer-item-title, .footer-item-description, .footer-item-contact {
         text-align: center;
@@ -63,11 +63,13 @@
         margin-bottom: 45px;
     }
 
-    #section-footer .container-social .social {
-        width: 25%;
-        float: left;
+    #section-footer .container-social {
         text-align: center;
     }
+
+        #section-footer .container-social .social {
+            width: 23%;
+        }
 }
 
 
