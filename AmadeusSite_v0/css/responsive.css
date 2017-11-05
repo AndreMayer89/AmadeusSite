@@ -104,6 +104,26 @@
     .footerlinks li {
         display: none;
     }
+
+    #section-roadmap .road-map-background .timeline-description p.roadmap-title {
+        font-size: 17px;
+    }
+
+     #section-roadmap .road-map-background .timeline-description p.roadmap-description {
+        font-size: 15px;
+    }
+
+     #section-roadmap .road-map-background .timeline:last-child .timeline-description {
+        padding-bottom: 53px;
+    }
+
+     #section-roadmap .road-map-background .timeline:first-child .timeline-description {
+        padding-bottom: 53px;
+    }
+
+     #section-roadmap .road-map-background{
+          height: 420px !important;
+     }
 }
 
 /* Smaller Mobile Devices */
