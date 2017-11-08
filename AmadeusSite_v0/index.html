@@ -115,14 +115,14 @@
         <div class="row" align="center">
             <h3>Roadmap</h3>
         </div>
-        <br/>
+        <br />
         <div class="row road-map-background">
             <div class="col-md-3 hidden-xs-down"></div>
             <div class="col-md-6 col-xs-12">
                 <div class="row">
                     <div class="col-md-5 col-xs-5 timeline">
                         <div class="row col-small-gutters">
-                            <div class="col-md-12 col-xs-12 timeline-description">                                
+                            <div class="col-md-12 col-xs-12 timeline-description">
                             </div>
                             <div class="col-md-12 col-xs-12 timeline-description">
                                 <p class="roadmap-title"> 2018 Quarter 1</p>
@@ -249,6 +249,55 @@
                 <div class="card col-md-1 col-xs-0"></div>
             </div>
         </div>
+        <div class="col-md-12 col-xs-12 section-news hide">
+            <ul>
+                <li>
+                    <div class="new-item" align="center">
+                        <div class="item-wrapper">
+                            <div class="header">
+                                <img src="https://cdn-images-1.medium.com/max/1000/1*eItBuTyxPg7kN0aclX7Fwg.png">
+                            </div>
+                            <div class="description">
+                                <p>We are happy to announce Amadeus Relay!</p>
+                            </div>
+                            <div class="news-media">
+                                <p>medium.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="new-item" align="center">
+                        <div class="item-wrapper">
+                            <div class="header">
+                                <img src="https://cdn-images-1.medium.com/max/1600/1*EW_XoyCvGXklu3EdYMB0Pg.jpeg">
+                            </div>
+                            <div class="description">
+                                <p>Recap: 0x at ETHWaterloo Hackathon – 0x Protocol</p>
+                            </div>
+                            <div class="news-media">
+                                <p>blog.0xproject.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="new-item" align="center">
+                        <div class="item-wrapper">
+                            <div class="header">
+                                <img src="https://pbs.twimg.com/card_img/926436859005231104/p5y4naT3?format=jpg&name=800x419">
+                            </div>
+                            <div class="description">
+                                <p>Six ways to protect your bitcoin and ethereum investments from hackers</p>
+                            </div>
+                            <div class="news-media">
+                                <p>cnbc.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
     </div>
     <br />
     <br />
@@ -328,7 +377,26 @@
                     }
                 }
             });
+            startCarousel();
         });
+
+        function startCarousel() {
+            var timer = 4000;
+            var i = 0;
+            var max = $('.section-news > ul > li').length;
+            $('.section-news > ul > li').eq(i).addClass('active').css('left', '0');
+            setInterval(function () {
+                $('.section-news > ul > li').removeClass('active');
+                $('.section-news > ul > li').eq(i).css('transition-delay', '0.25s');
+                if (i < max - 1) {
+                    i = i + 1;
+                }
+                else {
+                    i = 0;
+                }
+                $('.section-news > ul > li').eq(i).css('left', '0').addClass('active').css('transition-delay', '1.25s');
+            }, timer);
+        }
     </script>
 </body>
 </html>
