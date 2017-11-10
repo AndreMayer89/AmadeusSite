@@ -106,11 +106,11 @@
     }
 
     #section-roadmap .road-map-background .timeline-description p.roadmap-title {
-        font-size: 17px;
+        font-size: 15px;
     }
 
     #section-roadmap .road-map-background .timeline-description p.roadmap-description {
-        font-size: 15px;
+        font-size: 12px;
     }
 }
 
