@@ -109,21 +109,9 @@
         font-size: 17px;
     }
 
-     #section-roadmap .road-map-background .timeline-description p.roadmap-description {
+    #section-roadmap .road-map-background .timeline-description p.roadmap-description {
         font-size: 15px;
     }
-
-     #section-roadmap .road-map-background .timeline:last-child .timeline-description {
-        padding-bottom: 53px;
-    }
-
-     #section-roadmap .road-map-background .timeline:first-child .timeline-description {
-        padding-bottom: 53px;
-    }
-
-     #section-roadmap .road-map-background{
-          height: 420px !important;
-     }
 }
 
 /* Smaller Mobile Devices */
@@ -135,6 +123,27 @@
     .footersocial li {
         font-size: 1.5em;
     }
+
+    #section-roadmap .road-map-background .timeline:last-child .timeline-description {
+        height: 97px !important;
+    }
+
+    #section-roadmap .road-map-background .timeline:first-child .timeline-description {
+        height: 91px !important;
+    }
+}
+
+/* Smallest Mobile Devices */
+@media only screen and (max-width : 400px) {
+
+    #section-roadmap .road-map-background .timeline:last-child .timeline-description {
+        height: 81px !important;
+    }
+
+    #section-roadmap .road-map-background .timeline:first-child .timeline-description {
+        height: 71px !important;
+    }
+    
 }
 
 /* Smallest Mobile Devices */
@@ -147,4 +156,12 @@
             padding-top: 100px;
             padding-bottom: 30px;
         }
+
+    #section-roadmap .road-map-background .timeline:last-child .timeline-description {
+        height: 55px !important;
+    }
+
+    #section-roadmap .road-map-background .timeline:first-child .timeline-description {
+        height: 49px !important;
+    }
 }

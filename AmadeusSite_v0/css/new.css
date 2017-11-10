@@ -369,7 +369,7 @@ img {
 }
 
 #section-roadmap .road-map-background {
-    height: 500px;
+    height: auto;
     -webkit-transform: skewY(-3deg);
     -moz-transform: skewY(-3deg);
     -o-transform: skewY(-3deg);
@@ -395,17 +395,18 @@ img {
     }
 
         #section-roadmap .road-map-background .timeline:last-child .timeline-description {
-            padding-bottom: 53px;
+            height: 100px;
         }
 
         #section-roadmap .road-map-background .timeline:first-child .timeline-description {
-            padding-bottom: 63px;
+            height: 90px;
         }
 
     #section-roadmap .road-map-background p.roadmap-title {
-        font-size: 19px;
+        font-size: 17px;
         color: #777590;
         font-family: 'latoregular';
+        font-weight: bold;
     }
 
     #section-roadmap .road-map-background .timeline-description.active p.roadmap-title {
@@ -413,7 +414,7 @@ img {
     }
 
     #section-roadmap .road-map-background p.roadmap-description {
-        font-size: 17px;
+        font-size: 13px;
         color: #777590;
         font-family: 'latoregular';
     }

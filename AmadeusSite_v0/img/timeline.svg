@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="38" height="420" viewBox="0 0 38 420">
+    <defs>
+        <linearGradient id="a" x1="0%" x2="0%" y1="-7.001%" y2="100%">
+            <stop offset="0%" stop-color="#FF6C72"/>
+            <stop offset="100%" stop-color="#6737A0"/>
+        </linearGradient>
+        <circle id="c" cx="15" cy="15" r="15"/>
+        <filter id="b" width="163.3%" height="163.3%" x="-31.7%" y="-25%" filterUnits="objectBoundingBox">
+            <feMorphology in="SourceAlpha" operator="dilate" radius="2.5" result="shadowSpreadOuter1"/>
+            <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.466666667 0 0 0 0 0.458823529 0 0 0 0 0.564705882 0 0 0 1 0"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd" transform="translate(4 3)">
+        <path stroke="#D6D5DD" stroke-linecap="square" stroke-width="5" d="M15.5 127.455V405.5" style="mix-blend-mode:multiply"/>
+        <path stroke="url(#a)" stroke-linecap="square" stroke-width="5" d="M15.5 34.455v70.16" style="mix-blend-mode:multiply"/>
+        <use fill="#000" filter="url(#b)" xlink:href="#c"/>
+        <use fill="#FFF" stroke="#FF6C72" stroke-width="5" xlink:href="#c"/>
+        <circle cx="15" cy="116" r="10" fill="#FFF" stroke="#D6D5DD" stroke-width="5"/>
+        <circle cx="15" cy="212" r="10" fill="#FFF" stroke="#D6D5DD" stroke-width="5"/>
+        <circle cx="15" cy="308" r="10" fill="#FFF" stroke="#D6D5DD" stroke-width="5"/>
+        <circle cx="15" cy="404" r="10" fill="#FFF" stroke="#D6D5DD" stroke-width="5"/>
+    </g>
+</svg>
