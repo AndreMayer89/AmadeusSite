@@ -1,14 +1,14 @@
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 1024px) {
     #section-main {
-        max-height: 660px;
+        max-height: 700px;
     }
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 980px) {
     #section-main {
-        height: 600px;
+        height: 700px;
     }
 
     /*ABOUT SECTION*/
@@ -90,6 +90,14 @@
     #section-main {
         height: 590px;
     }
+
+        #section-main .subtitulo-principal.flexible-font {
+            font-size: 26px;
+        }
+
+        #section-main .subtitulo-secundario.flexible-font {
+            font-size: 20px;
+        }
 
         #section-main .container {
             padding-top: 30px;

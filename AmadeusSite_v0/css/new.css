@@ -311,7 +311,6 @@ img {
 
     #section-footer .footer-itens {
         font-family: 'latoregular';
-        margin-bottom: 100px;
     }
 
         #section-footer .footer-itens p {
@@ -340,6 +339,10 @@ img {
         line-height: 1.8em;
     }
 
+    #section-footer .container-social {
+        padding-top: 10px;
+    }
+
     #section-footer .social-begin, .social-end {
         width: 8%;
     }
@@ -355,8 +358,6 @@ img {
         }
 
     #section-footer .subscribe-container {
-        padding-left: 8%;
-        padding-right: 8%;
         margin-bottom: 50px;
     }
 
