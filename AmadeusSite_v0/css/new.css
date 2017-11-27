@@ -13,7 +13,7 @@ img {
 #section-main {
     color: #FFFFFF;
     text-align: center;
-    background: url(../img/waves.jpg)no-repeat;
+    background: url(../img/banner.jpg)no-repeat;
     background-position: 50% 50%;
     background-size: cover;
     overflow: hidden;
@@ -364,6 +364,7 @@ img {
 #section-roadmap {
     margin-bottom: 80px;
     margin-top: 80px;
+    width: 100%;
 }
 
     #section-roadmap h3 {
@@ -371,12 +372,12 @@ img {
         color: #512980;
     }
 
-    #section-roadmap .road-map-background {
+    #section-roadmap .row.road-map-background {
         height: auto;
         -webkit-transform: skewY(-3deg);
         -moz-transform: skewY(-3deg);
         -o-transform: skewY(-3deg);
-        background: #f9f8fb;
+        background: #f9f9f9;
     }
 
         #section-roadmap .road-map-background .timeline {
