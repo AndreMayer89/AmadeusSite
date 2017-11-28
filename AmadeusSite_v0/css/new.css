@@ -220,12 +220,11 @@ img {
         margin-top: 35px;
     }
 
-    #section-partners img {
-        border: 0;
-        max-width: 100%;
-        vertical-align: middle;
-        display: inline-block;
-    }
+        #section-partners .logo-section img {
+            max-height: 100%;
+            height: 100px;
+            width: 200px;
+        }
 
 #section-team {
     text-align: center;
