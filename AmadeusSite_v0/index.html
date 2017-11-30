@@ -61,12 +61,14 @@
                       method="post" id="mc-embedded-subscribe-form" data-wow-duration="2s" data-wow-delay="2s"
                       name="mc-embedded-subscribe-form" class="validate wow fadeInUp" target="_blank" novalidate>
                     <div class="col-md-2 col-xs-12"></div>
-                    <div class="input-group col-md-8 col-xs-12 container-input-email">
-                        <input name="EMAIL" class="required email form-control" id="mce-EMAIL" type="text"
-                               placeholder="Enter your email and receive first-hand news" aria-label="Enter your email and receive first-hand news">
-                        <span class="input-group-btn">
-                            <button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-secondary btn-subscribe">Subscribe</button>
-                        </span>
+                    <div class="col-md-8 col-xs-12">
+                        <div class="input-group container-input-email">
+                            <input name="EMAIL" class="required email form-control" id="mce-EMAIL" type="text"
+                                   placeholder="Enter your email and receive first-hand news" aria-label="Enter your email and receive first-hand news">
+                            <span class="input-group-btn">
+                                <button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-secondary btn-subscribe">Subscribe</button>
+                            </span>
+                        </div>
                     </div>
                     <div class="col-md-2 col-xs-12"></div>
                     <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_e998556c3739768a2440e9c92_be274a2287" tabindex="-1" value=""></div>
@@ -394,6 +396,11 @@
                 }
             });
             startCarousel();
+
+            $('#section-main').css({ 'height': (($(window).height())) + 'px' });//on load
+            $(window).resize(function () { // On resize
+                $('#section-main').css({ 'height': (($(window).height())) + 'px' });
+            });
         });
 
         function startCarousel() {
