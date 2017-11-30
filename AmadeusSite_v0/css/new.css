@@ -256,8 +256,8 @@ img {
         }
 
     #section-team .team .image-cropper {
-        width: 100px;
-        height: 100px;
+        width: 150px;
+        height: 150px;
         position: relative;
         overflow: hidden;
     }
@@ -267,7 +267,7 @@ img {
             position: absolute;
             z-index: 100;
             right: 0px;
-            top: 70px;
+            top: 110px;
         }
 
     #section-team .team .row:last-child .card:nth-last-child(2) .image-cropper::after {
