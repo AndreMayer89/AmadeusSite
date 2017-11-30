@@ -52,8 +52,8 @@ img {
     #section-footer input {
         border: none;
         border-radius: 0px;
-        background-color: rgba(177, 177, 177, 0.5);
-        box-shadow: 0 0 8px 0 rgba(177, 177, 177, 0.5);
+        background-color: rgba(177, 177, 177, 0.25);
+        box-shadow: 0 0 8px 0 rgba(177, 177, 177, 0.25);
         font-size: 16px;
         line-height: 1.25;
         text-align: left;
@@ -399,6 +399,7 @@ img {
     }
 
     #section-roadmap .row.road-map-background {
+        margin-top: 50px;
         height: auto;
         -webkit-transform: skewY(-3deg);
         -moz-transform: skewY(-3deg);
@@ -454,11 +455,11 @@ img {
         text-align: center;
     }
 
-.row.col-small-gutters > [class^="col-"],
-.row.col-small-gutters > [class*=" col-"] {
-    padding-left: 5px;
-    padding-right: 5px;
-}
+    #section-roadmap .row.col-small-gutters > [class^="col-"],
+    #section-roadmap .row.col-small-gutters > [class*=" col-"] {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
 
 
 .section-news {
