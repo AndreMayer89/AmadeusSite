@@ -463,6 +463,7 @@ img {
 
 #section-news {
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 #section-news .news-internal-container {
@@ -472,6 +473,12 @@ img {
     #section-news .news-card {
         text-align: left;
         box-shadow: 0 0 8px 0 rgba(177, 177, 177, 0.25);
+        cursor: pointer;
+    }
+
+    #section-news .news-card img {
+        height: 200px;
+        width: 100%;
     }
 
         #section-news .news-card .news-body {

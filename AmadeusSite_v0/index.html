@@ -48,6 +48,7 @@
                     <li><a href="#section-services">Services</a></li>
                     <li><a href="#section-roadmap">Roadmap</a></li>
                     <li><a href="#section-partners">Partners</a></li>
+                    <li><a href="#section-news">Latest News</a></li>
                     <li><a href="#section-team">Team</a></li>
                     <li class="hide"><a target="_blank" href="https://amadeusrelay.github.io/AmadeusRelayFrontend/">Docs</a></li>
                 </ul>
@@ -217,16 +218,16 @@
             </div>
         </div>
     </div>
-    <div id="section-news" class="container hide">
+    <div id="section-news" class="container">
         <div class="col-md-12 col-xs-12">
             <div class="row" align="center">
                 <h3 class="main-title">Latest News</h3>
             </div>
             <div class="row news-internal-container" align="center">
                 <div class="col-md-4 col-xs-12">
-                    <div class="news-card">
+                    <div class="news-card" data-news-url="https://medium.com/amadeus-relay/announcing-amadeus-relay-da7979e24bf0">
                         <div class="news-header">
-                            <img />
+                            <img src="img/news/news-amadeus-announcement-min.png"/>
                         </div>
                         <div class="news-body">
                             <p class="title">Announcing Amadeus Relay</p>
@@ -239,9 +240,9 @@
                     </div>
                 </div>
                 <div class="col-md-4 col-xs-12">
-                    <div class="news-card">
+                    <div class="news-card" data-news-url="https://medium.com/amadeus-relay/amadeus-roadmap-8792ebcd7e73">
                         <div class="news-header">
-                            <img />
+                            <img src="img/news/news-amadeus-roadmap-min.png" />
                         </div>
                         <div class="news-body">
                             <p class="title">Amadeus Roadmap</p>
@@ -254,9 +255,9 @@
                     </div>
                 </div>
                 <div class="col-md-4 col-xs-12">
-                    <div class="news-card">
+                    <div class="news-card" data-news-url="https://twitter.com/AmadeusRelay/status/935615000865099776">
                         <div class="news-header">
-                            <img />
+                            <img src="img/news/news-amadeus-etherify-min.png" />
                         </div>
                         <div class="news-body">
                             <p class="title">Amadeus Relay and Etherify.io</p>
@@ -406,6 +407,10 @@
             $('#section-main').css({ 'height': (($(window).height())) + 'px' });
             $(window).resize(function () {
                 $('#section-main').css({ 'height': (($(window).height())) + 'px' });
+            });
+
+            $(document).on('click', '#section-news .news-card', function () {
+                window.open($(this).attr('data-news-url'));
             });
         });
     </script>
