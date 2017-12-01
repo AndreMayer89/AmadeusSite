@@ -214,6 +214,7 @@ img {
     }
 
     #section-partners .main-subtitle, #section-team .main-subtitle {
+        margin-top: 50px;
         color: #777590;
         font-family: 'latoregular';
         font-size: 15px;
@@ -462,15 +463,16 @@ img {
     }
 
 #section-news {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 100px;
+    margin-bottom: 75px;
 }
 
 #section-news .news-internal-container {
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
     #section-news .news-card {
+        margin-top: 35px;
         text-align: left;
         box-shadow: 0 0 8px 0 rgba(177, 177, 177, 0.25);
         cursor: pointer;
