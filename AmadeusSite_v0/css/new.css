@@ -214,7 +214,7 @@ img {
     }
 
     #section-partners .main-subtitle, #section-team .main-subtitle {
-        margin-top: 50px;
+        margin-top: 20px;
         color: #777590;
         font-family: 'latoregular';
         font-size: 15px;
@@ -231,7 +231,7 @@ img {
             max-height: 100%;
             height: 100px;
             width: 200px;
-			margin: 0 50px;
+            margin: 0 50px;
         }
 
 #section-team {
@@ -299,11 +299,6 @@ img {
             vertical-align: super;
             color: #ea9312;
         }
-
-    #section-team .join-us a {
-        font-size: 12px;
-        cursor: pointer;
-    }
 
 #section-footer {
     background: linear-gradient(to bottom, #2f295f, #151231);
@@ -468,21 +463,21 @@ img {
     margin-bottom: 75px;
 }
 
-#section-news .news-internal-container {
-    margin-top: 50px;
-}
+    #section-news .news-internal-container {
+        margin-top: 15px;
+    }
 
     #section-news .news-card {
-        margin-top: 35px;
+        margin-top: 30px;
         text-align: left;
         box-shadow: 0 0 8px 0 rgba(177, 177, 177, 0.25);
         cursor: pointer;
     }
 
-    #section-news .news-card img {
-        height: 200px;
-        width: 100%;
-    }
+        #section-news .news-card img {
+            height: 200px;
+            width: 100%;
+        }
 
         #section-news .news-card .news-body {
             padding: 12px;
@@ -500,3 +495,39 @@ img {
 
             #section-news .news-card .news-body .news-channel {
             }
+
+#section-api-documentation {
+    background: #e83e4e;
+    background: -webkit-linear-gradient(left, #e83e4e, #4f2981);
+    background: -o-linear-gradient(right, #e83e4e, #4f2981);
+    background: -moz-linear-gradient(right, #e83e4e, #4f2981);
+    background: linear-gradient(to right, #e83e4e, #4f2981);
+    padding: 40px;
+    color: #FFFFFF;
+}
+
+    #section-api-documentation::after {
+        display: table;
+        content: "";
+        clear: both;
+    }
+
+    #section-api-documentation img {
+        margin: 30px;
+    }
+
+    #section-api-documentation .main-subtitle {
+        font-size: 20px;
+        margin-top: 80px;
+        margin-bottom: 80px;
+        margin-left: 50px;
+        margin-right: 50px;
+        text-align: left;
+    }
+
+    #section-api-documentation a {
+        border: 1px solid rgb(255,255,255);
+        border-radius: 5px;
+        color: rgb(255,255,255);
+        padding: 15px;
+    }
