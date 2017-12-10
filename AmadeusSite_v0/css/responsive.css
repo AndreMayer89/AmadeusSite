@@ -129,6 +129,16 @@
         #section-team .team .image-cropper.responsive::after {
             top: 80px;
         }
+
+    #section-api-documentation .main-subtitle.responsive {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    #section-api-documentation .main-title.responsive {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
 }
 
 /* Smaller Mobile Devices */
@@ -160,7 +170,6 @@
     #section-roadmap .road-map-background .timeline:first-child .timeline-description {
         height: 71px !important;
     }
-    
 }
 
 /* Smallest Mobile Devices */

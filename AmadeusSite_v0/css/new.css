@@ -517,6 +517,12 @@ img {
         text-align: left;
     }
 
+    #section-api-documentation .main-title {
+        margin-left: 50px;
+        margin-right: 50px;
+        text-align: left;
+    }
+
     #section-api-documentation a {
         border: 1px solid rgb(255,255,255);
         border-radius: 5px;
