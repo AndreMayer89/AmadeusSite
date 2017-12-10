@@ -274,14 +274,6 @@ img {
             top: 110px;
         }
 
-    #section-team .team .row:last-child .card:nth-last-child(2) .image-cropper::after {
-        content: none;
-        position: absolute;
-        z-index: 100;
-        right: 0px;
-        top: 70px;
-    }
-
     #section-team .team img {
         display: inline;
         margin: 0 auto;

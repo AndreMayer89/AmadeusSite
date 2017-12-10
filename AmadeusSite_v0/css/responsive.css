@@ -120,6 +120,15 @@
     #section-roadmap .road-map-background .timeline-description p.roadmap-description {
         font-size: 12px;
     }
+
+    #section-team .team .image-cropper.responsive {
+        width: 120px;
+        height: 120px;
+    }
+
+        #section-team .team .image-cropper.responsive::after {
+            top: 80px;
+        }
 }
 
 /* Smaller Mobile Devices */
