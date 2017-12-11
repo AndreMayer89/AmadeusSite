@@ -459,11 +459,19 @@ img {
         margin-top: 15px;
     }
 
+    #section-news .news-internal-container .item {
+        max-width: 300px;
+        display: inline-block;
+        vertical-align: top;
+        margin: 25px;
+    }
+
     #section-news .news-card {
         margin-top: 30px;
         text-align: left;
         box-shadow: 0 0 8px 0 rgba(177, 177, 177, 0.25);
         cursor: pointer;
+        max-width: 300px;
     }
 
         #section-news .news-card img {
@@ -477,15 +485,13 @@ img {
 
             #section-news .news-card .news-body .title {
                 font-family: 'latobold';
-                font-size: 22px;
+                font-size: 20px;
             }
 
             #section-news .news-card .news-body .description {
                 font-size: 14px;
                 color: #AEAEAE;
-            }
-
-            #section-news .news-card .news-body .news-channel {
+                height: 80px;
             }
 
 #section-api-documentation {
