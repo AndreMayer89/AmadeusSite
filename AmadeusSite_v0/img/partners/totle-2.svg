@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="180px" height="180px" viewBox="0 0 180 180" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Totle Logo White BG</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#00B8FF" offset="0%"></stop>
+            <stop stop-color="#0098EB" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Back-v2-Copy" transform="translate(-252.000000, -248.000000)">
+            <g id="Totle-Logo-White-BG" transform="translate(252.000000, 248.000000)">
+                <g id="Totle-Logo" transform="translate(0.106007, 0.000000)">
+                    <g id="Totle-logo-horizontal-vers-Copy">
+                        <g id="logo-1">
+                            <rect id="Rectangle" fill="url(#linearGradient-1)" x="0" y="0" width="180" height="180" rx="4"></rect>
+                            <path d="M49.3018282,84.3481854 L49.3018282,72.7077504 L72.5457272,72.7077504 L72.5457272,139.428919 L69.3223122,136.357259 L53.230251,121.022794 L27,96.0896847 L27,45 L153,45 L153,96.0896845 L152.429084,96.6323681 L126.734821,121.056002 L107.419723,139.464234 L107.419723,72.3012433 L130.691694,72.3012433 L130.691694,83.9416783 L128.795373,83.9416783 L120.115289,83.9416783 L120.115289,111.656961 L141.185442,91.0656964 L141.185442,56.6463985 L103.306879,56.6424881 L96.2592501,56.6424881 L96.2592501,150.006191 L90.0140648,156 L83.5593661,149.845491 L83.5593661,56.6424881 L76.6911625,56.6424881 L38.8123988,56.6463985 L38.8123988,91.0655797 L59.8480026,111.618637 L59.8480026,84.3481854 L49.3018282,84.3481854 Z" id="Combined-Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
