@@ -51,12 +51,16 @@
         </nav>
         <div id="section-main">
             <div class="col-md-2 col-xs-1"></div>
-            <div class="col-md-8 col-xs-10 container">
-                <img src="img/logo_nome_transparente.png" class="wow fadeInUp" data-wow-duration="2s" />
-                <h1 class="subtitulo-principal flexible-font wow fadeInUp" data-wow-duration="2s">The One Relayer for Decentralized Applications</h1>
-                <h2 class="subtitulo-secundario flexible-font wow fadeInUp" data-wow-duration="2s">Amadeus is the answer for dApps looking for liquidity to exchange ERC20 tokens.</h2>
+            <div class="col-md-8 col-xs-10 container" style="overflow: hidden;">
+                <img src="img/logo_nome_transparente.png"/>
+                <div class="subtitulo-principal">
+                    <h1 class="flexible-font animation-text-slide-show" style="display: none;">The One Relayer for Decentralized Applications</h1>
+                </div>
+                <div class="subtitulo-secundario">
+                    <h2 class="subtitulo-secundario flexible-font animation-text-slide-show" style="display: none;">Amadeus is the answer for dApps looking for liquidity to exchange ERC20 tokens.</h2>
+                </div>
                 <form action="https://amadeusrelay.us17.list-manage.com/subscribe/post?u=e998556c3739768a2440e9c92&amp;id=be274a2287"
-                      method="post" id="mc-embedded-subscribe-form" data-wow-duration="2s" data-wow-delay="2s"
+                      method="post" id="mc-embedded-subscribe-form" data-wow-duration="2s" data-wow-delay="1s"
                       name="mc-embedded-subscribe-form" class="validate wow fadeInUp" target="_blank" novalidate>
                     <div class="col-md-2 col-xs-12"></div>
                     <div class="col-md-8 col-xs-12">
@@ -435,6 +439,8 @@
             $(document).on('click', '#section-news .news-card', function () {
                 window.open($(this).attr('data-news-url'));
             });
+
+            $('.animation-text-slide-show').slideDown(1000);
         });
     </script>
 </body>
