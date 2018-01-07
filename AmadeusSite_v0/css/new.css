@@ -533,4 +533,7 @@ img {
         color: rgb(255,255,255);
         font-size: 16px;
         padding: 15px;
+        width: 150px;
+        display: inline-block;
+        margin: 25px;
     }
