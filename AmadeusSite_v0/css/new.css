@@ -141,7 +141,6 @@ img {
 }
 
     #section-services .container-items {
-        overflow: hidden;
     }
 
         #section-services .container-items:after {
@@ -156,6 +155,10 @@ img {
             max-width: 400px;
             height: 300px;
         }
+
+            #section-services .container-items .service-item.rotacao {
+                position: relative;
+            }
 
     #section-services h4 {
         color: #777590;
