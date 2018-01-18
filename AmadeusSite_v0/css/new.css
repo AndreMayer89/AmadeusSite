@@ -151,15 +151,11 @@ img {
         }
 
         #section-services .container-items .service-item {
-            box-shadow: 0 0 0 rgba(0,0,0,0.15);
-            transition: box-shadow 0.3s ease-in-out;
-            margin-bottom: -99999px;
-            padding-bottom: 99999px;
+            display: inline-block;
+            vertical-align: middle;
+            max-width: 400px;
+            height: 300px;
         }
-
-            #section-services .container-items .service-item:hover {
-                box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-            }
 
     #section-services h4 {
         color: #777590;
@@ -218,6 +214,7 @@ img {
         font-family: 'latoregular';
         padding-left: 20px;
         padding-right: 20px;
+        height: 80px;
     }
 
 #section-partners {
