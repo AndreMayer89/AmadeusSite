@@ -68,10 +68,13 @@ img {
 
     #section-main input,
     #section-footer input {
-        border: none;
-        border-radius: 0px;
-        background-color: rgba(177, 177, 177, 0.25);
-        box-shadow: 0 0 8px 0 rgba(177, 177, 177, 0.25);
+        border-left: 1px solid rgb(177, 177, 177);
+        border-top: 1px solid rgb(177, 177, 177);
+        border-bottom: 1px solid rgb(177, 177, 177);
+        border-right: 0;
+        border-radius: 5px 0 0 5px;
+        background-color: rgba(177, 177, 177, 0.05);
+        box-shadow: 0 0 8px 0 rgba(177, 177, 177, 0.05);
         font-size: 16px;
         line-height: 1.25;
         text-align: left;
@@ -114,9 +117,8 @@ img {
 
     #section-main button.btn-subscribe,
     #section-footer button.btn-subscribe {
-        border-radius: 0px;
-        background-image: linear-gradient(115deg, #ff6c72, #6737a0);
-        background-repeat: no-repeat;
+        border-radius: 0 5px 5px 0;
+        background-color: #76729f;
         border: none;
         box-shadow: 0 1px 6px 0 rgba(145, 106, 191, 0.5);
         line-height: 2.428571;
