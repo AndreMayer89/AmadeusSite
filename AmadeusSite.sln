@@ -1,10 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.16
+VisualStudioVersion = 15.0.27004.2006
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C664C184-FA0A-4D22-8E00-5B57EC0EE2B9}"
 	ProjectSection(SolutionItems) = preProject
+		AmadeusSite_v0\assinatura.html = AmadeusSite_v0\assinatura.html
 		AmadeusSite_v0\index.html = AmadeusSite_v0\index.html
 		AmadeusSite_v0\readme.md = AmadeusSite_v0\readme.md
 	EndProjectSection

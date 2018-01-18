@@ -273,7 +273,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="item item-carousel" style="display: none;" data-posicao-carousel="4">
+                    <div class="item item-carousel" data-posicao-carousel="4">
                         <div class="news-card" data-news-url="https://medium.com/amadeus-relay/amadeus-api-launch-df39a4a7384d">
                             <div class="news-header">
                                 <img src="img/news/news-amadeus-api-lauch-min.png" />
@@ -288,7 +288,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="item item-carousel" style="display: none;" data-posicao-carousel="5">
+                    <div class="item item-carousel" data-posicao-carousel="5">
                         <div class="news-card" data-news-url="https://medium.com/@totlecrypto/how-amadeus-api-0x-provide-the-liquidity-needed-for-totles-complete-portfolio-management-systems-c0284212fd24">
                             <div class="news-header">
                                 <img src="img/partners/totle-2.svg" />
@@ -303,7 +303,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="item item-carousel" style="display: none;" data-posicao-carousel="6">
+                    <div class="item item-carousel" data-posicao-carousel="6">
                         <div class="news-card" data-news-url="https://medium.com/amadeus-relay/amadeus-auctus-are-partners-since-the-beginning-abb68c8e3faa">
                             <div class="news-header">
                                 <img src="img/partners/auctus-partnership.png" />
@@ -435,6 +435,8 @@
     <script src="js/amadeus.js"></script>
     <script>
         new WOW().init();
+        var constNumeroItensCarousel = 3;
+
         $(function () {
             $('html').niceScroll({
                 mousescrollstep: 70,
@@ -476,7 +478,11 @@
                 moverItensCarousel(false);
             });
             aoSelecionarUmItemCarousel($('[data-posicao-carousel="1"]'));
-
+            $.each($('.item-carousel'), function () {
+                if (parseInt($(this).attr('data-posicao-carousel')) > constNumeroItensCarousel) {
+                    $(this).css('display', 'none');
+                }
+            });
             setInterval(function () { moverItensCarousel(false) }, 5000);
         });
 
@@ -557,7 +563,6 @@
             }
         }
 
-        var constNumeroItensCarousel = 3;
         function selecionarProximoRecebimento(moverEsquerda) {
             var carousel = $('#news-internal-container');
             var posicaoAtual = parseInt(carousel.find('.item-carousel.selecionado').attr('data-posicao-carousel'));
