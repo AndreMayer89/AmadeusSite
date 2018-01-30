@@ -80,6 +80,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "js", "js", "{27964C14-EB54-46B0-BE77-90E7720C21BC}"
 	ProjectSection(SolutionItems) = preProject
 		AmadeusSite_v0\js\amadeus.js = AmadeusSite_v0\js\amadeus.js
+		AmadeusSite_v0\js\carrossel.js = AmadeusSite_v0\js\carrossel.js
 		AmadeusSite_v0\js\jquery.nicescroll.min.js = AmadeusSite_v0\js\jquery.nicescroll.min.js
 		AmadeusSite_v0\js\wow.min.js = AmadeusSite_v0\js\wow.min.js
 	EndProjectSection

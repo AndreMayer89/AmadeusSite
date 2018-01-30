@@ -257,7 +257,7 @@
                                 <img src="img/news/news-amadeus-etherify-min.png" />
                             </div>
                             <div class="news-body">
-                                <p class="title">Amadeus Relay and Etherify.io</p>
+                                <p class="title">Amadeus Relay and Etherify</p>
                                 <p class="description">We are excited to announce we are working with @etherify_io to bring...</p>
                                 <div class="news-footer">
                                     <span class="news-date">Nov 28</span>
@@ -441,10 +441,9 @@
     <script src="js/jquery.nicescroll.min.js"></script>
     <script src="js/wow.min.js"></script>
     <script src="js/amadeus.js"></script>
+    <script src="js/carrossel.js"></script>
     <script>
         new WOW().init();
-        var constNumeroItensCarousel = 3;
-        var rotacao;
         $(function () {
             $('html').niceScroll({
                 mousescrollstep: 70,
@@ -477,158 +476,7 @@
             });
 
             $('.animation-text-slide-show').slideDown(1000);
-
-
-            if ($(window).width() < 992) {
-                constNumeroItensCarousel = 1;
-            }
-
-            $.each($('.item-carousel'), function () {
-                if (parseInt($(this).attr('data-posicao-carousel')) > constNumeroItensCarousel) {
-                    $(this).css('display', 'none');
-                }
-            });
-            $(document).on('click', '#btn-esquerdo-carousel', function () {
-                clearInterval(rotacao);
-                moverItensCarousel(true, null, function () {
-                    rotacao = setInterval(function () { moverItensCarousel(false) }, 10000);
-                });
-            });
-
-            $(document).on('click', '#btn-direito-carousel', function () {
-                clearInterval(rotacao);
-                moverItensCarousel(false, null, function () {
-                    rotacao = setInterval(function () { moverItensCarousel(false) }, 10000);
-                });
-            });
-            aoSelecionarUmItemCarousel($('[data-posicao-carousel="1"]'));
-            rotacao = setInterval(function () { moverItensCarousel(false) }, 10000);
         });
-
-        function moverItensCarousel(moverEsquerda, continuarEnquantoNaoTerminar, callbackTerminar) {
-            var tipoAnimacao = continuarEnquantoNaoTerminar ? '-fast' : '';
-            var tempoAnimacao = continuarEnquantoNaoTerminar ? 101 : 1002;
-            var totalItens = $('.item-carousel').length;
-            var itensVisiveisCarousel = $('#news-internal-container').find('.item-carousel:visible');
-            var posicoesCarousel = new Array();
-            $.each(itensVisiveisCarousel, function (index, item) {
-                posicoesCarousel.push(parseInt($(item).attr('data-posicao-carousel')));
-            });
-
-            var primeiroVisivel = Math.min.apply(Math, posicoesCarousel);
-            var ultimoVisivel = Math.max.apply(Math, posicoesCarousel);
-            if (moverEsquerda) {
-                if (primeiroVisivel == 1) {
-                    if (!continuarEnquantoNaoTerminar) {
-                        moverItensCarousel(false, true, callbackTerminar);
-                    }
-                    else {
-                        if (callbackTerminar && $.isFunction(callbackTerminar)) {
-                            callbackTerminar();
-                        }
-                    }
-                }
-                else {
-                    $('[data-posicao-carousel="' + (primeiroVisivel - 1) + '"]').fadeIn(tempoAnimacao).addClass('animar-mover-esquerda' + tipoAnimacao);
-                    $('[data-posicao-carousel="' + ultimoVisivel + '"]').fadeOut(tempoAnimacao);
-                    itensVisiveisCarousel.addClass('animar-mover-esquerda' + tipoAnimacao);
-                    setTimeout(function () {
-                        $('[data-posicao-carousel="' + (primeiroVisivel - 1) + '"]').removeClass('animar-mover-esquerda' + tipoAnimacao);
-                        itensVisiveisCarousel.removeClass('animar-mover-esquerda' + tipoAnimacao);
-                        if (continuarEnquantoNaoTerminar) {
-                            setTimeout(function () {
-                                moverItensCarousel(moverEsquerda, continuarEnquantoNaoTerminar, callbackTerminar);
-                            }, 20);
-                        }
-                        else {
-                            if (callbackTerminar && $.isFunction(callbackTerminar)) {
-                                callbackTerminar();
-                            }
-                        }
-                    }, tempoAnimacao);
-                }
-            }
-            else {
-                if (ultimoVisivel == totalItens) {
-                    if (!continuarEnquantoNaoTerminar) {
-                        moverItensCarousel(true, true, callbackTerminar);
-                    }
-                    else {
-                        if (callbackTerminar && $.isFunction(callbackTerminar)) {
-                            callbackTerminar();
-                        }
-                    }
-                }
-                else {
-                    $('[data-posicao-carousel="' + (ultimoVisivel + 1) + '"]').fadeIn(tempoAnimacao).addClass('animar-mover-direita' + tipoAnimacao);
-                    $('[data-posicao-carousel="' + primeiroVisivel + '"]').fadeOut(tempoAnimacao);
-                    itensVisiveisCarousel.addClass('animar-mover-direita' + tipoAnimacao);
-                    setTimeout(function () {
-                        $('[data-posicao-carousel="' + (ultimoVisivel + 1) + '"]').removeClass('animar-mover-direita' + tipoAnimacao);
-
-                        itensVisiveisCarousel.removeClass('animar-mover-direita' + tipoAnimacao);
-                        if (continuarEnquantoNaoTerminar) {
-                            setTimeout(function () {
-                                moverItensCarousel(moverEsquerda, continuarEnquantoNaoTerminar, callbackTerminar);
-                            }, 20);
-                        }
-                        else {
-                            if (callbackTerminar && $.isFunction(callbackTerminar)) {
-                                callbackTerminar();
-                            }
-                        }
-                    }, tempoAnimacao);
-                }
-            }
-        }
-
-        function selecionarProximoRecebimento(moverEsquerda) {
-            var carousel = $('#news-internal-container');
-            var posicaoAtual = parseInt(carousel.find('.item-carousel.selecionado').attr('data-posicao-carousel'));
-            var totalItens = $('.item-carousel').length;
-
-            var proximaPosicao;
-            if (moverEsquerda) {
-                proximaPosicao = posicaoAtual == 1 ? totalItens : posicaoAtual - 1;
-            }
-            else {
-                proximaPosicao = posicaoAtual == totalItens ? 1 : posicaoAtual + 1;
-            }
-
-            if (validarSeDeveMostrarConfirmacaoCarousel()) {
-                mostrarModalConfirmacao(proximaPosicao);
-            } else {
-                aoSelecionarUmItemCarousel($('[data-posicao-carousel="' + proximaPosicao + '"]'));
-            }
-        }
-
-        function aoSelecionarUmItemCarousel(elemento) {
-
-            var carousel = $('#news-internal-container');
-            var totalItens = $('.item-carousel').length;
-
-            var itemSelecionado = carousel.find('.item-carousel.selecionado');
-            var itensVisiveisCarousel = carousel.find('.item-carousel:visible');
-
-            var proximaPosicao = parseInt(elemento.attr('data-posicao-carousel'));
-
-            var posicoesCarousel = new Array();
-            $.each(itensVisiveisCarousel, function (index, item) {
-                posicoesCarousel.push(parseInt($(item).attr('data-posicao-carousel')));
-            });
-
-            var primeiroVisivel = Math.min.apply(Math, posicoesCarousel);
-            var ultimoVisivel = Math.max.apply(Math, posicoesCarousel);
-            var posicaoAtual = parseInt(itemSelecionado.attr('data-posicao-carousel'));
-
-            if (proximaPosicao < primeiroVisivel || proximaPosicao > ultimoVisivel) {
-                var moverCarouselEsquerda = posicaoAtual > proximaPosicao;
-                var continuarEnquantoVisivel = (proximaPosicao == 1 || proximaPosicao == totalItens) && (primeiroVisivel == 1 || ultimoVisivel == totalItens);
-                moverItensCarousel(moverCarouselEsquerda, continuarEnquantoVisivel, function () {
-
-                });
-            }
-        }
     </script>
 </body>
 </html>

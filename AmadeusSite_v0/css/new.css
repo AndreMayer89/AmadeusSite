@@ -534,7 +534,8 @@ img {
         text-align: left;
         box-shadow: 0 0 8px 0 rgba(177, 177, 177, 0.25);
         cursor: pointer;
-        max-width: 300px;
+        max-width: 280px;
+        width: 100%;
     }
 
         #section-news .news-card img {
@@ -595,7 +596,7 @@ img {
 
 #news-internal-container .div-itens-carousel {
     display: inline-block;
-    width: 90%;
+    width: 70%;
     height: 100%;
     overflow: hidden;
     white-space: nowrap;
@@ -613,5 +614,5 @@ img {
     display: inline-block;
     vertical-align: middle;
     min-height: 1px;
-    width: 3%
+    width: 13%;
 }
