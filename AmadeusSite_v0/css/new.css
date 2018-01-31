@@ -22,6 +22,10 @@ img {
         color: #a09fac;
     }
 
+        #section-menu a.new {
+            color: #e83e4e;
+        }
+
     #section-menu .nav li.active a,
     #section-menu .nav li:hover,
     #section-menu .nav li a:hover {
