@@ -1,0 +1,90 @@
+﻿#section-api-documentation {
+    background: #e83e4e;
+    background: -webkit-linear-gradient(left, #e83e4e, #4f2981);
+    background: -o-linear-gradient(right, #e83e4e, #4f2981);
+    background: -moz-linear-gradient(right, #e83e4e, #4f2981);
+    background: linear-gradient(to right, #e83e4e, #4f2981);
+    padding: 20px;
+    color: #FFFFFF;
+}
+
+    #section-api-documentation::after {
+        display: table;
+        content: "";
+        clear: both;
+    }
+
+    #section-api-documentation .container-imagem {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        display: inline-block;
+        vertical-align: top;
+        padding-right: 60px;
+        padding-left: 60px;
+    }
+
+    #section-api-documentation .container-texto {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        display: inline-block;
+        vertical-align: top;
+        max-width: 600px;
+        padding-right: 60px;
+        padding-left: 60px;
+    }
+
+    #section-api-documentation img {
+        margin: 30px;
+    }
+
+    #section-api-documentation .main-subtitle {
+        font-size: 18px;
+        margin: 30px;
+        text-align: left;
+    }
+
+    #section-api-documentation .main-title {
+        margin: 30px;
+        text-align: left;
+    }
+
+    #section-api-documentation a {
+        border: 1px solid rgb(255,255,255);
+        border-radius: 5px;
+        color: rgb(255,255,255);
+        font-size: 16px;
+        padding: 15px;
+        width: 150px;
+        display: inline-block;
+        margin: 25px;
+    }
+
+
+
+/* Mobile Devices */
+@media only screen and (max-width : 640px) {
+    #section-api-documentation .main-subtitle.responsive {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    #section-api-documentation .main-title.responsive {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    #section-api-documentation .container-imagem {
+        display: inline-block;
+        vertical-align: top;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    #section-api-documentation .container-texto {
+        display: inline-block;
+        vertical-align: top;
+        max-width: 500px;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+}

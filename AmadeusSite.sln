@@ -14,6 +14,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "css", "css", "{0D9A150F-D385-46AF-9C74-2ACE2AE6C704}"
 	ProjectSection(SolutionItems) = preProject
 		AmadeusSite_v0\css\animate.css = AmadeusSite_v0\css\animate.css
+		AmadeusSite_v0\css\api-documentation.css = AmadeusSite_v0\css\api-documentation.css
 		AmadeusSite_v0\css\fonts.css = AmadeusSite_v0\css\fonts.css
 		AmadeusSite_v0\css\new.css = AmadeusSite_v0\css\new.css
 		AmadeusSite_v0\css\responsive.css = AmadeusSite_v0\css\responsive.css

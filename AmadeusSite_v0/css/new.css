@@ -451,47 +451,7 @@ img {
 
 
 
-#section-api-documentation {
-    background: #e83e4e;
-    background: -webkit-linear-gradient(left, #e83e4e, #4f2981);
-    background: -o-linear-gradient(right, #e83e4e, #4f2981);
-    background: -moz-linear-gradient(right, #e83e4e, #4f2981);
-    background: linear-gradient(to right, #e83e4e, #4f2981);
-    padding: 40px;
-    color: #FFFFFF;
-}
 
-    #section-api-documentation::after {
-        display: table;
-        content: "";
-        clear: both;
-    }
-
-    #section-api-documentation img {
-        margin: 30px;
-    }
-
-    #section-api-documentation .main-subtitle {
-        font-size: 18px;
-        margin: 30px;
-        text-align: left;
-    }
-
-    #section-api-documentation .main-title {
-        margin: 30px;
-        text-align: left;
-    }
-
-    #section-api-documentation a {
-        border: 1px solid rgb(255,255,255);
-        border-radius: 5px;
-        color: rgb(255,255,255);
-        font-size: 16px;
-        padding: 15px;
-        width: 150px;
-        display: inline-block;
-        margin: 25px;
-    }
 
 
 
