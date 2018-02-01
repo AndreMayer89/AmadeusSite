@@ -41,7 +41,7 @@ function moverItensCarousel(moverEsquerda, continuarEnquantoNaoTerminar, callbac
     var tipoAnimacao = continuarEnquantoNaoTerminar ? '-fast' : '';
     var tempoAnimacao = continuarEnquantoNaoTerminar ? 101 : 1002;
     var totalItens = $('.item-carousel').length;
-    var itensVisiveisCarousel = $('#news-internal-container').find('.item-carousel:visible');
+    var itensVisiveisCarousel = $('.news-internal-container').find('.item-carousel:visible');
     var posicoesCarousel = [];
     $.each(itensVisiveisCarousel, function (index, item) {
         posicoesCarousel.push(parseInt($(item).attr('data-posicao-carousel')));
@@ -116,7 +116,7 @@ function moverItensCarousel(moverEsquerda, continuarEnquantoNaoTerminar, callbac
 
 function aoSelecionarUmItemCarousel(elemento) {
 
-    var carousel = $('#news-internal-container');
+    var carousel = $('.news-internal-container');
     var totalItens = $('.item-carousel').length;
 
     var itemSelecionado = carousel.find('.item-carousel.selecionado');

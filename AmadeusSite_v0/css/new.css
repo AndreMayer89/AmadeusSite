@@ -549,24 +549,21 @@ img {
     animation: animate-left 0.1s ease 0s;
 }
 
-#div-itens-orcamento #news-internal-container {
-    width: 100%;
-    height: 100%;
+.news-internal-container .div-btn-carousel {
+    display: inline-block;
+    vertical-align: middle;
+    min-height: 20px;
+    width: 13%;
 }
 
-#news-internal-container .div-btn-carousel {
-    height: 100%;
-}
-
-#news-internal-container .btn-carrousel {
-    height: 100%;
-}
-
-    #news-internal-container .btn-carrousel.disabled {
-        cursor: not-allowed !important;
+    .news-internal-container .div-btn-carousel .btn-carrousel {
     }
 
-#news-internal-container .div-itens-carousel {
+        .news-internal-container .div-btn-carousel .btn-carrousel.disabled {
+            cursor: not-allowed !important;
+        }
+
+.news-internal-container .div-itens-carousel {
     display: inline-block;
     width: 70%;
     height: 100%;
@@ -574,17 +571,10 @@ img {
     white-space: nowrap;
 }
 
-    #news-internal-container .div-itens-carousel .item-carousel {
+    .news-internal-container .div-itens-carousel .item-carousel {
         height: 100%;
     }
 
-        #news-internal-container .div-itens-carousel .item-carousel:hover {
+        .news-internal-container .div-itens-carousel .item-carousel:hover {
             box-shadow: 0 5px 15px rgba(0,0,0,0.3);
         }
-
-#news-internal-container .span-btn-carousel {
-    display: inline-block;
-    vertical-align: middle;
-    min-height: 1px;
-    width: 13%;
-}
