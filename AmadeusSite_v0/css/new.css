@@ -495,12 +495,39 @@ img {
         margin-top: 15px;
     }
 
-        #section-news .news-internal-container .item {
-            max-width: 280px;
+        #section-news .news-internal-container .div-btn-carousel {
             display: inline-block;
-            vertical-align: top;
-            margin: 25px;
+            vertical-align: middle;
+            min-height: 20px;
+            width: 13%;
         }
+
+            #section-news .news-internal-container .div-btn-carousel .btn-carrousel {
+            }
+
+                #section-news .news-internal-container .div-btn-carousel .btn-carrousel.disabled {
+                    cursor: not-allowed !important;
+                }
+
+        #section-news .news-internal-container .div-itens-carousel {
+            display: inline-block;
+            width: 70%;
+            height: 100%;
+            overflow: hidden;
+            white-space: nowrap;
+        }
+
+            #section-news .news-internal-container .div-itens-carousel .item-carousel {
+                height: 100%;
+                max-width: 280px;
+                display: inline-block;
+                vertical-align: top;
+                margin: 25px;
+            }
+
+                #section-news .news-internal-container .div-itens-carousel .item-carousel:hover {
+                    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+                }
 
     #section-news .news-card {
         text-align: left;
@@ -548,33 +575,3 @@ img {
 .animar-mover-esquerda-fast {
     animation: animate-left 0.1s ease 0s;
 }
-
-.news-internal-container .div-btn-carousel {
-    display: inline-block;
-    vertical-align: middle;
-    min-height: 20px;
-    width: 13%;
-}
-
-    .news-internal-container .div-btn-carousel .btn-carrousel {
-    }
-
-        .news-internal-container .div-btn-carousel .btn-carrousel.disabled {
-            cursor: not-allowed !important;
-        }
-
-.news-internal-container .div-itens-carousel {
-    display: inline-block;
-    width: 70%;
-    height: 100%;
-    overflow: hidden;
-    white-space: nowrap;
-}
-
-    .news-internal-container .div-itens-carousel .item-carousel {
-        height: 100%;
-    }
-
-        .news-internal-container .div-itens-carousel .item-carousel:hover {
-            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-        }
