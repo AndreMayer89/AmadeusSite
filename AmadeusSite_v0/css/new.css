@@ -507,12 +507,9 @@ img {
             width: 13%;
         }
 
-            #section-news .news-internal-container .div-btn-carousel .btn-carrousel {
+            #section-news .news-internal-container .div-btn-carousel .btn-carrousel.disabled {
+                cursor: not-allowed !important;
             }
-
-                #section-news .news-internal-container .div-btn-carousel .btn-carrousel.disabled {
-                    cursor: not-allowed !important;
-                }
 
         #section-news .news-internal-container .div-itens-carousel {
             width: 70%;
@@ -536,7 +533,6 @@ img {
                     text-align: left;
                     box-shadow: 0 0 8px 0 rgba(177, 177, 177, 0.25);
                     cursor: pointer;
-                    max-width: 280px;
                     width: 100%;
                 }
 
