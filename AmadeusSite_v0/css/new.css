@@ -133,6 +133,14 @@ img {
         color: #ffffff;
     }
 
+        #section-main button.btn-subscribe:hover,
+        #section-footer button.btn-subscribe:hover {
+            box-shadow: 0 25px 25px rgba(0,0,0,0.3);
+            color: #76729f;
+            background-color: rgba(255, 255, 255, 1);
+            font-weight: bold;
+        }
+
     #section-main .main-title, .secondary-title {
         margin-top: 0px;
     }
@@ -574,7 +582,7 @@ img {
             box-shadow: 0 5px 15px rgba(0,0,0,0.3);
         }
 
-.span-btn-carousel {
+#news-internal-container .span-btn-carousel {
     display: inline-block;
     vertical-align: middle;
     min-height: 1px;

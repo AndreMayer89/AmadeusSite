@@ -59,6 +59,14 @@
         margin: 25px;
     }
 
+        #section-api-documentation a:hover {
+            text-decoration: none;
+            box-shadow: 0 25px 25px rgba(0,0,0,0.3);
+            color: #e83e4e;
+            background-color: rgba(255, 255, 255, 1);
+            font-weight: bold;
+        }
+
 
 
 /* Mobile Devices */
