@@ -264,63 +264,7 @@ img {
             margin: 0 50px;
         }
 
-#section-team {
-    text-align: center;
-}
 
-    #section-team .card p {
-        font-family: 'latoregular';
-    }
-
-    #section-team p.team-name {
-        color: #000000;
-        font-size: 15px;
-        margin-top: 10px;
-    }
-
-    #section-team p.team-description {
-        color: #777590;
-        font-size: 14px;
-        line-height: 1.4em;
-        height: 55px;
-    }
-
-        #section-team p.team-description a {
-            word-break: break-all;
-        }
-
-    #section-team .team .image-cropper {
-        width: 150px;
-        height: 150px;
-        position: relative;
-        overflow: hidden;
-    }
-
-        #section-team .team .image-cropper::after {
-            content: url(../img/icone_linkedin.png);
-            position: absolute;
-            z-index: 100;
-            right: 0px;
-            top: 110px;
-        }
-
-    #section-team .team img {
-        display: inline;
-        margin: 0 auto;
-        height: 100%;
-        width: auto;
-        border-radius: 50%;
-    }
-
-    #section-team .card {
-        margin-bottom: 15px;
-    }
-
-        #section-team .card i.card-linkedin {
-            font-size: 14px;
-            vertical-align: super;
-            color: #ea9312;
-        }
 
 #section-footer {
     background: linear-gradient(to bottom, #2f295f, #151231);

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.16
+VisualStudioVersion = 15.0.27004.2006
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C664C184-FA0A-4D22-8E00-5B57EC0EE2B9}"
 	ProjectSection(SolutionItems) = preProject
@@ -18,6 +18,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "css", "css", "{0D9A150F-D38
 		AmadeusSite_v0\css\fonts.css = AmadeusSite_v0\css\fonts.css
 		AmadeusSite_v0\css\new.css = AmadeusSite_v0\css\new.css
 		AmadeusSite_v0\css\responsive.css = AmadeusSite_v0\css\responsive.css
+		AmadeusSite_v0\css\team.css = AmadeusSite_v0\css\team.css
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "img", "img", "{FD9F3757-294A-4617-9118-4F4B7189E0B5}"
