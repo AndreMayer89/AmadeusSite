@@ -47,6 +47,14 @@
         margin-bottom: 40px;
     }
 
+    #section-news .news-internal-container .div-itens-carousel .item-carousel .news-card .news-body .title.responsive {
+        font-size: 13px;
+    }
+
+    #section-news .news-internal-container .div-itens-carousel .item-carousel .news-card .news-body .description.responsive {
+        font-size: 11px;
+    }
+
     .footer-item-title, .footer-item-description, .footer-item-contact {
         text-align: center;
     }

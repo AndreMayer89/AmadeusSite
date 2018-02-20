@@ -1,4 +1,4 @@
-var constNumeroItensCarousel = 2;
+var constNumeroItensCarousel = 3;
 var rotacao;
 
 $(function () {
