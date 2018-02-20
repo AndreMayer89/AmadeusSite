@@ -46,6 +46,10 @@
         border-radius: 50%;
     }
 
+        #section-team .team img:hover {
+            border: 2px solid #e83e4e;
+        }
+
     #section-team .card {
         margin-bottom: 15px;
     }

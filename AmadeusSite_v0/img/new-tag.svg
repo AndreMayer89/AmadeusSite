@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="19px" viewBox="0 0 44 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Banner-API-Copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-1177.000000, -114.000000)">
+        <g id="Group" transform="translate(1177.000000, 114.000000)">
+            <rect id="Rectangle-10" fill="#EC5361" x="0" y="0" width="44" height="19" rx="2"></rect>
+            <text id="NEW!" font-family="Lato-Bold, Lato" font-size="12" font-weight="bold" letter-spacing="0.272727251" fill="#FFFFFF">
+                <tspan x="5.3895455" y="14">NEW!</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
