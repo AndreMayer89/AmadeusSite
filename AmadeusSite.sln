@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27004.2006
+VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C664C184-FA0A-4D22-8E00-5B57EC0EE2B9}"
 	ProjectSection(SolutionItems) = preProject
@@ -23,17 +23,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "css", "css", "{0D9A150F-D38
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "img", "img", "{FD9F3757-294A-4617-9118-4F4B7189E0B5}"
 	ProjectSection(SolutionItems) = preProject
-		AmadeusSite_v0\img\amazon.png = AmadeusSite_v0\img\amazon.png
-		AmadeusSite_v0\img\apple-touch-icon-ipad-retina.png = AmadeusSite_v0\img\apple-touch-icon-ipad-retina.png
-		AmadeusSite_v0\img\apple-touch-icon-ipad.png = AmadeusSite_v0\img\apple-touch-icon-ipad.png
-		AmadeusSite_v0\img\apple-touch-icon-iphone-retina.png = AmadeusSite_v0\img\apple-touch-icon-iphone-retina.png
-		AmadeusSite_v0\img\apple-touch-icon-iphone.png = AmadeusSite_v0\img\apple-touch-icon-iphone.png
-		AmadeusSite_v0\img\background.jpg = AmadeusSite_v0\img\background.jpg
 		AmadeusSite_v0\img\favicon.png = AmadeusSite_v0\img\favicon.png
-		AmadeusSite_v0\img\icon.png = AmadeusSite_v0\img\icon.png
-		AmadeusSite_v0\img\s1.png = AmadeusSite_v0\img\s1.png
-		AmadeusSite_v0\img\s2.png = AmadeusSite_v0\img\s2.png
-		AmadeusSite_v0\img\s3.png = AmadeusSite_v0\img\s3.png
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "team", "team", "{3A01CF02-B6C9-4DC5-8E4D-E3CB36542645}"
