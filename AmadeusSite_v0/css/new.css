@@ -445,7 +445,7 @@ img {
     }
 
         #section-news .news-internal-container > div {
-            display: table-cell;
+            max-width: 900px;
         }
 
         #section-news .news-internal-container .div-btn-carousel {
@@ -458,66 +458,167 @@ img {
                 cursor: not-allowed !important;
             }
 
-        #section-news .news-internal-container .div-itens-carousel {
-            width: 70%;
-            overflow: hidden;
-            white-space: nowrap;
+        #section-news .news-internal-container .item-carousel .news-card {
+            height: 100%;
+            max-width: 250px;
+            vertical-align: top;
+            margin: 25px;
+            box-shadow: 0 0 8px 0 rgba(177, 177, 177, 0.25);
+            text-align: left;
+            cursor: pointer;
         }
 
-            #section-news .news-internal-container .div-itens-carousel .item-carousel {
-                height: 100%;
-                max-width: 220px;
-                display: inline-block;
-                vertical-align: top;
-                margin: 25px;
+            #section-news .news-internal-container .item-carousel .news-card:hover {
+                box-shadow: 0 5px 15px rgba(0,0,0,0.3);
             }
 
-                #section-news .news-internal-container .div-itens-carousel .item-carousel:hover {
-                    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+            #section-news .news-internal-container .item-carousel .news-card img {
+                height: 200px;
+                width: 100%;
+                text-align: center;
+            }
+
+            #section-news .news-internal-container .item-carousel .news-card .news-body {
+                padding: 12px;
+            }
+
+                #section-news .news-internal-container .item-carousel .news-card .news-body .title {
+                    font-family: 'latobold';
+                    font-size: 15px;
                 }
 
-                #section-news .news-internal-container .div-itens-carousel .item-carousel .news-card {
-                    text-align: left;
-                    box-shadow: 0 0 8px 0 rgba(177, 177, 177, 0.25);
-                    cursor: pointer;
-                    width: 100%;
+                #section-news .news-internal-container .item-carousel .news-card .news-body .description {
+                    font-size: 12px;
+                    color: #AEAEAE;
+                    height: 80px;
+                    white-space: normal;
+                    margin: 0;
                 }
 
-                    #section-news .news-internal-container .div-itens-carousel .item-carousel .news-card img {
-                        height: 200px;
-                        width: 100%;
-                        text-align: center;
-                    }
+        #section-news .news-internal-container .carousel-indicators {
+            bottom: -25px;
+        }
 
-                    #section-news .news-internal-container .div-itens-carousel .item-carousel .news-card .news-body {
-                        padding: 12px;
-                    }
-
-                        #section-news .news-internal-container .div-itens-carousel .item-carousel .news-card .news-body .title {
-                            font-family: 'latobold';
-                            font-size: 15px;
-                        }
-
-                        #section-news .news-internal-container .div-itens-carousel .item-carousel .news-card .news-body .description {
-                            font-size: 12px;
-                            color: #AEAEAE;
-                            height: 80px;
-                            white-space: normal;
-                            margin: 0;
-                        }
-
-            #section-news .news-internal-container .div-itens-carousel .animar-mover-direita {
-                animation: animate-right 1s ease 0s;
+            #section-news .news-internal-container .carousel-indicators li {
+                border: 1px solid #AEAEAE;
             }
 
-            #section-news .news-internal-container .div-itens-carousel .animar-mover-esquerda {
-                animation: animate-left 1s ease 0s;
-            }
+                #section-news .news-internal-container .carousel-indicators li.active {
+                    background-color: #e83e4e;
+                    border: 1px solid #e83e4e;
+                }
 
-            #section-news .news-internal-container .div-itens-carousel .animar-mover-direita-fast {
-                animation: animate-right 0.1s ease 0s;
-            }
 
-            #section-news .news-internal-container .div-itens-carousel .animar-mover-esquerda-fast {
-                animation: animate-left 0.1s ease 0s;
-            }
+
+.carousel-showsixmoveone .carousel-control {
+    width: 4%;
+    background-image: none;
+}
+
+    .carousel-showsixmoveone .carousel-control.left {
+        margin-left: 15px;
+    }
+
+    .carousel-showsixmoveone .carousel-control.right {
+        margin-right: 15px;
+    }
+
+.carousel-showsixmoveone .cloneditem-1,
+.carousel-showsixmoveone .cloneditem-2 {
+    display: none;
+}
+
+@media all and (min-width: 768px) {
+    .carousel-showsixmoveone .carousel-inner > .active.left,
+    .carousel-showsixmoveone .carousel-inner > .prev {
+        left: -33.333%;
+    }
+
+    .carousel-showsixmoveone .carousel-inner > .active.right,
+    .carousel-showsixmoveone .carousel-inner > .next {
+        left: 33.333%;
+    }
+
+    .carousel-showsixmoveone .carousel-inner > .left,
+    .carousel-showsixmoveone .carousel-inner > .prev.right,
+    .carousel-showsixmoveone .carousel-inner > .active {
+        left: 0;
+    }
+
+    .carousel-showsixmoveone .carousel-inner .cloneditem-1,
+    .carousel-showsixmoveone .carousel-inner .cloneditem-2 {
+        display: block;
+    }
+}
+
+@media all and (min-width: 768px) and (transform-3d), all and (min-width: 768px) and (-webkit-transform-3d) {
+    .carousel-showsixmoveone .carousel-inner > .item.active.right,
+    .carousel-showsixmoveone .carousel-inner > .item.next {
+        -webkit-transform: translate3d(33.333%, 0, 0);
+        transform: translate3d(33.333%, 0, 0);
+        left: 0;
+    }
+
+    .carousel-showsixmoveone .carousel-inner > .item.active.left,
+    .carousel-showsixmoveone .carousel-inner > .item.prev {
+        -webkit-transform: translate3d(-33.333%, 0, 0);
+        transform: translate3d(-33.333%, 0, 0);
+        left: 0;
+    }
+
+        .carousel-showsixmoveone .carousel-inner > .item.left,
+        .carousel-showsixmoveone .carousel-inner > .item.prev.right,
+        .carousel-showsixmoveone .carousel-inner > .item.active {
+            -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+            left: 0;
+        }
+}
+
+@media all and (min-width: 992px) {
+    .carousel-showsixmoveone .carousel-inner > .active.left,
+    .carousel-showsixmoveone .carousel-inner > .prev {
+        left: -16.666%;
+    }
+
+    .carousel-showsixmoveone .carousel-inner > .active.right,
+    .carousel-showsixmoveone .carousel-inner > .next {
+        left: 16.666%;
+    }
+
+    .carousel-showsixmoveone .carousel-inner > .left,
+    .carousel-showsixmoveone .carousel-inner > .prev.right,
+    .carousel-showsixmoveone .carousel-inner > .active {
+        left: 0;
+    }
+
+    .carousel-showsixmoveone .carousel-inner .cloneditem-3,
+    .carousel-showsixmoveone .carousel-inner .cloneditem-4,
+    .carousel-showsixmoveone .carousel-inner .cloneditem-5 {
+        display: block;
+    }
+}
+
+@media all and (min-width: 992px) and (transform-3d), all and (min-width: 992px) and (-webkit-transform-3d) {
+    .carousel-showsixmoveone .carousel-inner > .item.active.right,
+    .carousel-showsixmoveone .carousel-inner > .item.next {
+        -webkit-transform: translate3d(33.333%, 0, 0);
+        transform: translate3d(33.333%, 0, 0);
+        left: 0;
+    }
+
+    .carousel-showsixmoveone .carousel-inner > .item.active.left,
+    .carousel-showsixmoveone .carousel-inner > .item.prev {
+        -webkit-transform: translate3d(-33.333%, 0, 0);
+        transform: translate3d(-33.333%, 0, 0);
+        left: 0;
+    }
+
+        .carousel-showsixmoveone .carousel-inner > .item.left,
+        .carousel-showsixmoveone .carousel-inner > .item.prev.right,
+        .carousel-showsixmoveone .carousel-inner > .item.active {
+            -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+            left: 0;
+        }
+}
