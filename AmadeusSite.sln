@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27130.2027
+VisualStudioVersion = 15.0.27004.2006
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C664C184-FA0A-4D22-8E00-5B57EC0EE2B9}"
 	ProjectSection(SolutionItems) = preProject
@@ -92,6 +92,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "partners", "partners", "{56
 		AmadeusSite_v0\img\partners\logo.svg = AmadeusSite_v0\img\partners\logo.svg
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "assinatura", "assinatura", "{0B3B3847-A72A-406C-986A-046A0B27E8CF}"
+	ProjectSection(SolutionItems) = preProject
+		AmadeusSite_v0\assinatura\assinatura_andre.html = AmadeusSite_v0\assinatura\assinatura_andre.html
+		AmadeusSite_v0\assinatura\assinatura_eduardo.html = AmadeusSite_v0\assinatura\assinatura_eduardo.html
+		AmadeusSite_v0\assinatura\assinatura_fabio.html = AmadeusSite_v0\assinatura\assinatura_fabio.html
+		AmadeusSite_v0\assinatura\assinatura_fernanda.html = AmadeusSite_v0\assinatura\assinatura_fernanda.html
+		AmadeusSite_v0\assinatura\assinatura_joao.html = AmadeusSite_v0\assinatura\assinatura_joao.html
+		AmadeusSite_v0\assinatura\assinatura_mariana.html = AmadeusSite_v0\assinatura\assinatura_mariana.html
+		AmadeusSite_v0\assinatura\assinatura_rafael.html = AmadeusSite_v0\assinatura\assinatura_rafael.html
+		AmadeusSite_v0\assinatura\assinatura_talita.html = AmadeusSite_v0\assinatura\assinatura_talita.html
+		AmadeusSite_v0\assinatura\assinatura_yasmim.html = AmadeusSite_v0\assinatura\assinatura_yasmim.html
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -104,6 +117,7 @@ Global
 		{27964C14-EB54-46B0-BE77-90E7720C21BC} = {C664C184-FA0A-4D22-8E00-5B57EC0EE2B9}
 		{58F9724D-9A83-4E02-A418-2F43324E0B1F} = {FD9F3757-294A-4617-9118-4F4B7189E0B5}
 		{56661CDB-BF90-4E26-968E-383CC822C305} = {FD9F3757-294A-4617-9118-4F4B7189E0B5}
+		{0B3B3847-A72A-406C-986A-046A0B27E8CF} = {C664C184-FA0A-4D22-8E00-5B57EC0EE2B9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {447CF8DE-DD0C-4C65-9749-949B7B8375A5}
