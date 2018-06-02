@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/new.css">
     <link rel="stylesheet" href="css/api-documentation.css">
     <link rel="stylesheet" href="css/team.css">
@@ -45,62 +46,43 @@
                     <span class="fa fa-bars"></span>
                 </button>
             </div>
+			<div class="logo">
+				<img src="img/logo_branco.svg" />
+			</div>
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class=""><a target="_blank" class="new" href="https://demo.amadeusrelay.org/">Demo&nbsp;<img src="img/new-tag.svg" /></a></li>
+                    <li class=""><a target="_blank" class="new" href="https://demo.amadeusrelay.org/">Demo</a></li>
                     <li class=""><a target="_blank" href="https://amadeusrelay.github.io/AmadeusRelayFrontend/">Docs</a></li>
                     <li class=""><a target="_blank" href="https://medium.com/amadeus-relay">Blog</a></li>
                 </ul>
             </div>
         </nav>
         <div id="section-main">
-            <div class="col-md-2 col-xs-1"></div>
-            <div class="col-md-8 col-xs-10 container" style="overflow: hidden;">
-                <img src="img/logo_nome_transparente.png" />
+            <div class="col-md-1 col-xs-1"></div>
+            <div class="col-md-5 col-xs-11 container" style="overflow: hidden;">
                 <div class="subtitulo-principal">
                     <h1 class="flexible-font animation-text-slide-show" style="display: none;">The One Relayer for Decentralized Applications</h1>
                 </div>
                 <div class="subtitulo-secundario">
-                    <h2 class="subtitulo-secundario flexible-font animation-text-slide-show" style="display: none;">Amadeus is the answer for dApps looking for liquidity to exchange ERC20 tokens.</h2>
-                </div>
-                <form action="https://amadeusrelay.us17.list-manage.com/subscribe/post?u=e998556c3739768a2440e9c92&amp;id=be274a2287"
-                      method="post" id="mc-embedded-subscribe-form" data-wow-duration="2s" data-wow-delay="1s"
-                      name="mc-embedded-subscribe-form" class="validate wow fadeInUp" target="_blank" novalidate>
-                    <div class="col-md-2 col-xs-12"></div>
-                    <div class="col-md-8 col-xs-12">
-                        <div class="input-group container-input-email">
-                            <input name="EMAIL" class="required email form-control" id="mce-EMAIL" type="text"
-                                   placeholder="Enter your email and receive first-hand news" aria-label="Enter your email and receive first-hand news">
-                            <span class="input-group-btn">
-                                <button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-secondary btn-subscribe">Subscribe</button>
-                            </span>
-                        </div>
-                    </div>
-                    <div class="col-md-2 col-xs-12"></div>
-                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_e998556c3739768a2440e9c92_be274a2287" tabindex="-1" value=""></div>
-                </form>
+                    <h2 class="subtitulo-secundario flexible-font animation-text-slide-show" style="display: none;"><span class='bold'>Our API beta version is up and running!</span>&nbsp;If your project needs liquidity to exchange tokens here is where you can begin.<br>
+In this version we have implemented both the Reserve Manager and Quote Provider strategies.</h2>
+                </div>                
+				<div>
+					<div class="container-texto">
+						<a href="https://amadeusrelay.github.io/AmadeusRelayFrontend/" target="_blank" class="">DOCUMENTATION</a>
+					</div>
+					<div class="container-texto col2">
+						<a href="https://demo.amadeusrelay.org/" target="_blank">DEMO</a>
+					</div>
+				</div>
             </div>
-            <div class="col-md-2 col-xs-1"></div>
+			<div class="col-md-6 col-xs-12 img-demo">
+				<div class="">
+					<img class='all-width' src="img/demo.svg" />
+				</div>
+			</div>
         </div>
     </header>
-    <div id="section-api-documentation" class="">
-        <div class="text-center">
-            <div class="container-imagem">
-                <img src="img/our-api.svg" alt="our api" />
-            </div>
-            <div class="container-texto">
-                <div class="row" align="center">
-                    <h2 class="main-title responsive">The alpha version of Amadeus API is up and running!</h2>
-                    <p class="main-subtitle responsive">Amadeus API is ready for tests. If your project needs liquidity to exchange token here is where you can begin.</p>
-                    <p class="main-subtitle responsive">Make sure to contact our team if you need support on the integration to your project. It can save you time and we will be glad to help!</p>
-                </div>
-                <div class="row" align="center">
-                    <a href="https://amadeusrelay.github.io/AmadeusRelayFrontend/" target="_blank" class="">Documentation</a>
-                    <a href="https://demo.amadeusrelay.org/" target="_blank">Demo</a>
-                </div>
-            </div>
-        </div>
-    </div>
     <div id="section-services" class="container">
         <div class="row">
             <div class="container-items text-center">
@@ -160,7 +142,7 @@
                         <div class="row col-small-gutters">
                             <div class="col-md-12 col-xs-12 timeline-description">
                             </div>
-                            <div class="col-md-12 col-xs-12 timeline-description">
+                            <div class="col-md-12 col-xs-12 timeline-description active">
                                 <p class="roadmap-title"> 2018 Quarter 1</p>
                                 <p class="roadmap-description">Launch of Amadeus API Beta Version</p>
                             </div>
@@ -225,75 +207,30 @@
                 <div class="carousel carousel-showsixmoveone slide" id="carousel123">
                     <div class="carousel-inner">
                         <div class="item-carousel item active">
-                            <div class="news-card col-md-4" data-news-url="https://medium.com/amadeus-relay/announcing-amadeus-relay-da7979e24bf0">
+                            <div class="news-card col-md-4" data-news-url="https://medium.com/amadeus-relay/amadeus-beta-release-11342fa88fce">
                                 <div class="news-header">
-                                    <img src="img/news/news-amadeus-announcement.svg" />
+                                    <img src="img/news/news-amadeus-demo-launch.svg" />
                                 </div>
                                 <div class="news-body">
-                                    <p class="title responsive">Announcing Amadeus Relay</p>
-                                    <p class="description responsive">Today we are delighted to announce Amadeus Relay, a relayer based on the 0x protocol...</p>
+                                    <p class="title responsive">Beta Release</p>
+                                    <p class="description responsive">Today we are very happy to announce that we’re launching Amadeus Beta at Kovan Testnet...</p>
                                     <div class="news-footer">
-                                        <span class="news-date">Nov 3</span>
+                                        <span class="news-date">May 29</span>
                                         <span class="news-channel pull-right"><span class="fa fa-2x fa-medium"></span></span>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="item-carousel item">
-                            <div class="news-card col-md-4" data-news-url="https://medium.com/amadeus-relay/amadeus-roadmap-8792ebcd7e73">
+                            <div class="news-card col-md-4" data-news-url="https://medium.com/amadeus-relay/learn-more-about-amadeus-5228a69af202">
                                 <div class="news-header">
-                                    <img src="img/news/news-amadeus-roadmap.svg" />
+                                    <img src="img/news/news-amadeus-demo-launch.svg" />
                                 </div>
                                 <div class="news-body">
-                                    <p class="title responsive">Amadeus Roadmap</p>
-                                    <p class="description responsive">Last week we introduced Amadeus Relay, a 0x relayer made especially for Decentralized...</p>
+                                    <p class="title responsive">Demo Launch</p>
+                                    <p class="description responsive">Today we are launching Amadeus Demo, a simple App that demonstrates how...</p>
                                     <div class="news-footer">
-                                        <span class="news-date">Nov 10</span>
-                                        <span class="news-channel pull-right"><span class="fa fa-2x fa-medium"></span></span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item-carousel item">
-                            <div class="news-card col-md-4" data-news-url="https://twitter.com/AmadeusRelay/status/935615000865099776">
-                                <div class="news-header">
-                                    <img src="img/news/news-amadeus-etherify.png" />
-                                </div>
-                                <div class="news-body">
-                                    <p class="title responsive">Amadeus Relay and Etherify</p>
-                                    <p class="description responsive">We are excited to announce we are working with @etherify_io to bring...</p>
-                                    <div class="news-footer">
-                                        <span class="news-date">Nov 28</span>
-                                        <span class="news-channel pull-right"><span class="fa fa-2x fa-twitter"></span></span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item-carousel item">
-                            <div class="news-card col-md-4" data-news-url="https://medium.com/amadeus-relay/amadeus-api-launch-df39a4a7384d">
-                                <div class="news-header">
-                                    <img src="img/news/news-amadeus-api-launch.svg" />
-                                </div>
-                                <div class="news-body">
-                                    <p class="title responsive">Amadeus API Launch</p>
-                                    <p class="description responsive">Two months ago nine people got together to start working on Amadeus Relay with the intention...</p>
-                                    <div class="news-footer">
-                                        <span class="news-date">Dec 08</span>
-                                        <span class="news-channel pull-right"><span class="fa fa-2x fa-medium"></span></span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item-carousel item">
-                            <div class="news-card col-md-4" data-news-url="https://medium.com/@totlecrypto/how-amadeus-api-0x-provide-the-liquidity-needed-for-totles-complete-portfolio-management-systems-c0284212fd24">
-                                <div class="news-header">
-                                    <img src="img/news/news-amadeus-totle.svg" />
-                                </div>
-                                <div class="news-body">
-                                    <p class="title responsive">Totle Partnership</p>
-                                    <p class="description responsive">The aim of the Totle Portfolio Management system is to provide a simple yet fluid way to...</p>
-                                    <div class="news-footer">
-                                        <span class="news-date">Dec 13</span>
+                                        <span class="news-date">Jan 22</span>
                                         <span class="news-channel pull-right"><span class="fa fa-2x fa-medium"></span></span>
                                     </div>
                                 </div>
@@ -315,15 +252,30 @@
                             </div>
                         </div>
                         <div class="item-carousel item">
-                            <div class="news-card col-md-4" data-news-url="https://medium.com/amadeus-relay/learn-more-about-amadeus-5228a69af202">
+                            <div class="news-card col-md-4" data-news-url="https://medium.com/@totlecrypto/how-amadeus-api-0x-provide-the-liquidity-needed-for-totles-complete-portfolio-management-systems-c0284212fd24">
                                 <div class="news-header">
-                                    <img src="img/news/news-amadeus-demo-launch.svg" />
+                                    <img src="img/news/news-amadeus-totle.svg" />
                                 </div>
                                 <div class="news-body">
-                                    <p class="title responsive">Demo Launch</p>
-                                    <p class="description responsive">Today we are launching Amadeus Demo, a simple App that demonstrates how...</p>
+                                    <p class="title responsive">Totle Partnership</p>
+                                    <p class="description responsive">The aim of the Totle Portfolio Management system is to provide a simple yet fluid way to...</p>
                                     <div class="news-footer">
-                                        <span class="news-date">Jan 22</span>
+                                        <span class="news-date">Dec 13</span>
+                                        <span class="news-channel pull-right"><span class="fa fa-2x fa-medium"></span></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-carousel item">
+                            <div class="news-card col-md-4" data-news-url="https://medium.com/amadeus-relay/amadeus-api-launch-df39a4a7384d">
+                                <div class="news-header">
+                                    <img src="img/news/news-amadeus-api-launch.svg" />
+                                </div>
+                                <div class="news-body">
+                                    <p class="title responsive">Amadeus API Launch</p>
+                                    <p class="description responsive">Two months ago nine people got together to start working on Amadeus Relay with the intention...</p>
+                                    <div class="news-footer">
+                                        <span class="news-date">Dec 08</span>
                                         <span class="news-channel pull-right"><span class="fa fa-2x fa-medium"></span></span>
                                     </div>
                                 </div>
@@ -338,8 +290,6 @@
                         <li data-target="#carousel123" data-slide-to="2"></li>
                         <li data-target="#carousel123" data-slide-to="3"></li>
                         <li data-target="#carousel123" data-slide-to="4"></li>
-                        <li data-target="#carousel123" data-slide-to="5"></li>
-                        <li data-target="#carousel123" data-slide-to="6"></li>
                     </ol>
                 </div>
             </div>

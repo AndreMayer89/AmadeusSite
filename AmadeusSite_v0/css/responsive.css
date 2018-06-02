@@ -1,28 +1,39 @@
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 1024px) {
-    #section-main {
-        max-height: 700px;
+}
+
+
+@media (min-width: 768px) {
+    .navbar-left, .navbar-right {
+		padding-top: 3% !important;
     }
+
+	#section-menu .logo {
+		float: left !important;
+	}
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 980px) {
-    #section-main {
-        height: 700px;
-    }
-
     /*ABOUT SECTION*/
     #about {
         padding-top: 40px;
     }
-
+		
+	#section-main .img-demo {
+		margin-top: 20% !important;
+		margin-bottom: 20% !important;
+	}
+	
+	#section-main .container-texto {
+	  padding: 10px !important;
+	  width: 45% !important;
+	  min-width: 0px !important;
+	}
+		
     /*COLLUPSABLE NAVIGATION MENU*/
     .navbar-header {
         float: none;
-    }
-
-    .navbar-left, .navbar-right {
-        float: none !important;
     }
 
     .navbar-toggle {
@@ -79,6 +90,7 @@
 
 /* Mobile Devices */
 @media only screen and (max-width : 640px) {
+
     h2 {
         font-size: 1.9em;
     }
@@ -91,17 +103,17 @@
         font-size: 1.1em;
     }
 
-    #section-main {
-        height: 590px;
-    }
-
-        #section-main .subtitulo-principal.flexible-font {
+        #section-main .subtitulo-principal h1.flexible-font {
             font-size: 26px;
         }
 
-        #section-main .subtitulo-secundario.flexible-font {
+        #section-main .subtitulo-secundario h2.flexible-font {
             font-size: 20px;
         }
+		
+		#section-main .container-texto a {
+			font-size: 12px !important;
+		}
 
         #section-main .container {
             padding-top: 30px;
@@ -137,9 +149,6 @@
 
 /* Smaller Mobile Devices */
 @media only screen and (max-width : 480px) {
-    #section-main {
-        height: 570px;
-    }
 
     .footersocial li {
         font-size: 1.5em;
@@ -168,9 +177,6 @@
 
 /* Smallest Mobile Devices */
 @media only screen and (max-width : 320px) {
-    #section-main {
-        height: 480px;
-    }
 
         #section-main .container {
             padding-top: 100px;

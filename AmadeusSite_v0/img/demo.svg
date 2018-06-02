@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="733" height="463" viewBox="0 0 733 463">
+    <defs>
+        <linearGradient id="c" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#433C7F"/>
+            <stop offset="100%" stop-color="#2F295F"/>
+        </linearGradient>
+        <path id="b" d="M0 0h819.058v436.527H0z"/>
+        <filter id="a" width="104.8%" height="108.9%" x="-2.4%" y="-4.5%" filterUnits="objectBoundingBox">
+            <feOffset in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="6.5"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0"/>
+        </filter>
+        <linearGradient id="d" x1="2.881%" x2="92.417%" y1="2.777%" y2="89.079%">
+            <stop offset="0%" stop-color="#FC535A"/>
+            <stop offset="100%" stop-color="#6737A0"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g transform="translate(13 13)">
+            <use fill="#000" filter="url(#a)" xlink:href="#b"/>
+            <use fill="url(#c)" xlink:href="#b"/>
+        </g>
+        <path fill="url(#d)" d="M62.278 21.71c-2.806 0-5.089 2.272-5.089 5.065v29.647c0 4.7-3.842 8.525-8.565 8.525-4.723 0-8.565-3.824-8.565-8.525V11.333c0-2.792-2.283-5.064-5.088-5.064-2.806 0-5.089 2.272-5.089 5.064v29.648c0 4.7-3.842 8.524-8.564 8.524-4.724 0-8.566-3.823-8.566-8.524v-5.682H4.561a1.737 1.737 0 0 1-1.739-1.73c0-.954.78-1.73 1.739-1.73h9.93c.958 0 1.738.776 1.738 1.73v7.412c0 2.792 2.283 5.064 5.089 5.064 2.805 0 5.088-2.272 5.088-5.064V11.333c0-4.7 3.842-8.524 8.565-8.524 4.723 0 8.565 3.823 8.565 8.524v45.09c0 2.792 2.282 5.063 5.088 5.063s5.088-2.271 5.088-5.064V26.775c0-4.701 3.842-8.526 8.566-8.526 4.722 0 8.564 3.825 8.564 8.526v5.373h8.192c.958 0 1.738.776 1.738 1.73s-.78 1.73-1.738 1.73h-9.93a1.736 1.736 0 0 1-1.738-1.73v-7.103c0-2.793-2.283-5.064-5.088-5.064m16.756 7.628h-5.37v-2.564c0-6.25-5.108-11.333-11.386-11.333-6.28 0-11.388 5.084-11.388 11.333v29.647a2.264 2.264 0 0 1-2.266 2.256 2.263 2.263 0 0 1-2.266-2.256V11.333C46.358 5.083 41.25 0 34.971 0c-6.28 0-11.387 5.084-11.387 11.333v29.648a2.264 2.264 0 0 1-2.266 2.255 2.263 2.263 0 0 1-2.266-2.255v-7.412c0-2.503-2.046-4.54-4.561-4.54H4.56C2.046 29.03 0 31.067 0 33.57s2.046 4.539 4.56 4.539h5.37v2.873c0 6.249 5.109 11.333 11.388 11.333 6.278 0 11.387-5.084 11.387-11.333V11.333a2.264 2.264 0 0 1 2.266-2.255 2.263 2.263 0 0 1 2.266 2.255v45.09c0 6.249 5.108 11.333 11.387 11.333 6.279 0 11.388-5.084 11.388-11.334V26.775a2.263 2.263 0 0 1 2.266-2.256 2.263 2.263 0 0 1 2.265 2.256v7.103c0 2.503 2.046 4.539 4.561 4.539h9.93c2.515 0 4.56-2.036 4.56-4.54 0-2.502-2.045-4.538-4.56-4.538" transform="translate(346.732 60.552)"/>
+        <g transform="translate(122.776 175.747)">
+            <text fill="#FFF" font-family="Lato-Light, Lato" font-size="16.731" font-weight="300">
+                <tspan x=".76" y="17">Amadeus returns an array of tokens, combined in pairs. Then the dApp </tspan> <tspan x=".76" y="41.336">chooses which tokens to trade using end point </tspan> <tspan x="341.571" y="41.336" font-family="Lato-Medium, Lato" font-weight="400">GET orders</tspan> <tspan x="424.891" y="41.336">.</tspan>
+            </text>
+            <text fill="#FF606D" font-family="Lato-Semibold, Lato" font-size="16.731" font-weight="500" letter-spacing=".697">
+                <tspan x="1.521" y="182.789">GET ORDERS</tspan>
+            </text>
+            <g stroke="#FF6C72" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.521">
+                <path d="M118.638 176.436h12.168M126.243 171.873l4.563 4.563-4.563 4.563"/>
+            </g>
+            <rect width="192.406" height="39.546" y="99.626" fill="#777590" fill-opacity=".5" rx="2.281"/>
+            <rect width="192.406" height="39.546" x="215.221" y="99.626" fill="#777590" fill-opacity=".5" rx="2.281"/>
+            <text fill="#FFF" font-family="Lato-Regular, Lato" font-size="12.168">
+                <tspan x="12.168" y="125.314">ETH</tspan>
+            </text>
+            <text fill="#FFF" font-family="Lato-Regular, Lato" font-size="12.168">
+                <tspan x="0" y="88.05">Taker token (to sell)</tspan>
+            </text>
+            <text fill="#FFF" font-family="Lato-Regular, Lato" font-size="12.168">
+                <tspan x="227.389" y="125.314">ZRX</tspan>
+            </text>
+            <text fill="#FFF" font-family="Lato-Regular, Lato" font-size="12.168">
+                <tspan x="215.221" y="88.05">Maker token (to buy)</tspan>
+            </text>
+            <path stroke="#A09FAC" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.521" d="M164.268 117.117l4.563 4.563 4.563-4.563M379.49 117.117l4.563 4.563 4.563-4.563"/>
+        </g>
+        <g transform="translate(64.936 211.49)">
+            <circle cx="7.605" cy="28.899" r="3.803" fill="#A09FAC"/>
+            <circle cx="7.605" cy="54.756" r="3.803" fill="#A09FAC" opacity=".5"/>
+            <circle cx="7.605" cy="3.803" r="3.803" fill="#A09FAC" opacity=".5"/>
+            <circle cx="7.605" cy="79.853" r="3.803" fill="#A09FAC" opacity=".5"/>
+            <circle cx="7.605" cy="104.949" r="3.803" fill="#A09FAC" opacity=".5"/>
+            <circle cx="7.605" cy="28.899" r="7.605" fill="#FF6C72"/>
+        </g>
+    </g>
+</svg>
